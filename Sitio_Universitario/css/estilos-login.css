@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
- /*background: url(../images/bg.jpeg) no-repeat center top;*/
-  background-size: cover;
+  background: url(../images/bg.jpeg) no-repeat center top;
+  background-size: cover;*/
   font-family: sans-serif;
   height: 100vh;
 }
@@ -86,3 +86,32 @@ body {
 .login-box a:hover {
   color: #fff;
 }
+
+/*
+/* A REVISAR*/
+/*BOTON*//*
+#btn-btn-primary-dropdown-toggle button[type="dropdownMenuButton"]:hover{ 
+  cursor: pointer;
+                width: 320px;
+                 height: 420px;
+                 top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+
+
+}
+
+#dropdown-menu { cursor: pointer;
+                
+}
+
+#dropdownMenuButton
+{ border-color: red;
+text-align: center;
+border-radius: 5px; }
+
+.qwerty{text-decoration: none;}
+
+*/
