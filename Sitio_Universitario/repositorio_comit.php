@@ -1,3 +1,8 @@
+<?php 
+session_start();
+?>
+
+<!--ESTE CONTENIDO SOLO EL AACCESO ES SOLO PARA USUARIOS REGISTRADOS -->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -69,13 +74,13 @@
 
 		<article>
 			<p>
-				BIENBENIDOS AL  REPOSITROIO DEL CAMPUS DEL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO
+				BIENVENIDOS AL  REPOSITORIO DEL CAMPUS DEL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO
 			</p>
 		</article>
 
 
 
-		<h1>Bienbenidos al repositroio comit</h1>
+		<h1>Bienvenidos al Repositorio ComIT</h1>
 
 
 		 <div>

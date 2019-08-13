@@ -34,7 +34,7 @@
 <!--Consulta-->
 
 <!--
-    1.- COMO DEBERIA CONECTARLO CON MI BASE DE DATOS /index.php/admin.-
+    1.- NOSE COMO CONFIGULARLO.-
 
     2.-
 

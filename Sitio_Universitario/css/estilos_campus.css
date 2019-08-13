@@ -2,11 +2,14 @@ body{
 	margin: 0;
 	padding: 0;
 	height: 100vh;
-	/*background: url(../images/foto_playa_5.jpg) no-repeat center top;*/
+	background: url(../images/fondo_11.jpg) no-repeat center top;
+  	background-size: cover;
+  	font-family: sans-serif;
+  	height: 100vh;
 }
 
 .logo{
 	/*width: 70px;*/
 	height: 30px;
-}
+
 

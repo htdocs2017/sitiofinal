@@ -1,3 +1,6 @@
+<?php session_start();
+
+ ?>
 <!DOCTYPE html>
 <html lang="es">
 	<head>
@@ -65,8 +68,6 @@
 					                    		login
 					                    	</a>
 					                    </li>
-
-					                
 					                </ul>
 					            </div>
 					        </div>
@@ -78,27 +79,66 @@
 
 		<div class="director">
 			<p>
-				Como director de la instiución se desempeña el señor 
-					<b class="director"> 
-						JORGE CÓRDOBA 
-					</b>.
-			</p>
-			<p>
-				Se desempeña como direcor desde 17  de abril del 2017 hasta la fecha.
+				<b>
+					Jorge Cordoba.
+				</b>
 			</p>
 
 			<p>
-				Anterimente se desempeñaba como el 
-				<b class="director"> 
-					Director De Cultura San Fernando 
-				</b>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consequatur quas minima distinctio enim nisi non saepe quaerat minus eum autem, sunt dolore perferendis, repellat, amet animi perspiciatis. Quod, modi!
+			</p>
+
+			<p>
+				Optio nam laudantium similique perspiciatis labore quidem, accusantium dignissimos, sapiente dolor eaque vel minus velit placeat, suscipit! Quisquam hic consequatur, animi inventore veniam reprehenderit omnis, illum quis, dicta nemo pariatur!
+			</p>
+
+			<p>
+				Odio maxime nemo iure, neque unde, harum facilis voluptate, culpa omnis asperiores sunt itaque impedit ullam sapiente, totam deleniti. Maiores corrupti, nulla. Fuga maxime quibusdam, necessitatibus accusamus illo nemo voluptatibus.
+			</p>
+
+			<p>
+				Aliquid assumenda delectus doloremque unde libero rerum repellendus, saepe error consectetur optio enim obcaecati quo molestiae cupiditate magni repellat omnis impedit facilis maxime. Modi officiis suscipit deserunt nostrum accusantium ut!
+			</p>
+
+			<p>
+				Perspiciatis corrupti cumque ipsum incidunt dolore ullam velit eveniet qui asperiores dolores voluptate, in optio aliquam blanditiis id nemo, laudantium officiis cum magnam ratione quos quis doloremque iure molestiae, enim.
+			</p>
+
+			<p>
+				Praesentium doloremque ut recusandae dolorem optio pariatur, eligendi accusamus soluta ab velit ipsum expedita quasi sunt sequi nisi quam at. Saepe in iure incidunt inventore, natus unde quod praesentium quidem.
+			</p>
+
+			<p>
+				Praesentium doloremque ut recusandae dolorem optio pariatur, eligendi accusamus soluta ab velit ipsum expedita quasi sunt sequi nisi quam at. Saepe in iure incidunt inventore, natus unde quod praesentium quidem.
+			</p>
+
+			<p>
+				Reprehenderit reiciendis delectus, natus iusto! Earum ea maiores odit nisi dolorem totam provident magni fugiat incidunt adipisci inventore, voluptates itaque, dolor. Voluptatibus incidunt quos explicabo modi molestiae eos vel maiores.
+			</p>
+
+			<p>
+				Earum, harum maiores adipisci quo. Sed ab vel, minus voluptatum veritatis blanditiis ipsam illum temporibus eius, iure eaque architecto. Aspernatur eaque asperiores neque, hic ducimus nihil quis explicabo voluptatibus mollitia.
+			</p>
+
+			<p>
+				Modi vero alias sint beatae iusto quidem magnam placeat, possimus, sed delectus, consequatur tempora rem repellat ex fugiat ipsam amet debitis. Voluptatem neque reprehenderit, quis iusto, voluptatum natus. Maiores, ullam.
+			</p>
+
+			<p>
+				Nobis eveniet tenetur quam aut labore sapiente molestias dolor, et dolore, libero, quas incidunt nulla amet saepe ex. Laboriosam enim alias ad deserunt omnis nobis rerum officiis excepturi minus voluptatem.
+			</p>
+
+			<p>
+				Nobis eveniet tenetur quam aut labore sapiente molestias dolor, et dolore, libero, quas incidunt nulla amet saepe ex. Laboriosam enim alias ad deserunt omnis nobis rerum officiis excepturi minus voluptatem.
 			</p>
 		</div>
 
 
 		<div class="prof_1">
 			<p>
-				Docente TILLI PABLO DANIEL.
+				<b>
+					Docente TILLI PABLO DANIEL.
+				</b>
 			</p>
 
 			<p>
@@ -118,3 +158,4 @@
 
 	</body>
 </html>
+?>

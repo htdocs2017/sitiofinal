@@ -3,7 +3,7 @@
 	define( 'HOST' , 'localhost' );
 	define( 'USER' , 'root' );
 	define( 'PASSWORD' , '' );
-	define( 'uni' , 'Sitio_Universitario' );
+	define( 'DB' , 'Sitio_Universitario' );
 
 	function getConexion(){
 		

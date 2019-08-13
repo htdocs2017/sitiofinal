@@ -9,22 +9,36 @@
 
 
 
-    define("PATH_VIEWS", SITE_ROOT . "/vistas");
 
-    define("PATH_HELPERS", SITE_ROOT . "/helpers");//  NO CONFIGURE
 
-    define("PATH_DAOS", SITE_ROOT . "/modelo/DAOs"); //  NO CONFIGURE
 
-    define("UPLOAD_PUB_IMAGE_PATH", SITE_ROOT . "/files/imagenes/publicaciones");//  NO CONFIGURE
 
-    define("FILES", ROOT_URL . "/files");
+
+
+
+
+
+
+
+    define("PATH_VIEWS", SITE_ROOT . "/vistas"); //NO CONFIGURADO
+
+    define("PATH_HELPERS", SITE_ROOT . "/helpers"); //NO CONFIGURADO
+
+    define("PATH_DAOS", SITE_ROOT . "/modelo/DAOs"); //NO CONFIGURADO
+
+    define("UPLOAD_PUB_IMAGE_PATH", SITE_ROOT . "/files/imagenes/publicaciones"); //NO CONFIGURADO
+
+    define("FILES", ROOT_URL . "/files"); //NO CONFIGURADO
     
-    define("PATH_CSS", ROOT_URL . "/css");
+    define("PATH_CSS", ROOT_URL . "/css");  //NO CONFIGURADO
 
-    define("PATH_RECURSOS", ROOT_URL . "/recursos");//  NO CONFIGURE
+    define("PATH_RECURSOS", ROOT_URL . "/recursos");  //NO CONFIGURADO
 
-    define("PATH_IMAGENES", ROOT_URL . "/recursos/images");//  NO CONFIGURE
+    define("PATH_IMAGENES", ROOT_URL . "/recursos/images");  //NO CONFIGURADO
 
-    define("PATH_FONTS", ROOT_URL . "/fonts");
+    define("PATH_FONTS", ROOT_URL . "/fonts");  //NO CONFIGURADO
 
-    define("PATH_VENDOR", ROOT_URL . "/vendor");
+    define("PATH_VENDOR", ROOT_URL . "/vendor");   //NO CONFIGURADO
+
+
+//

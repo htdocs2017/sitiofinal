@@ -5,14 +5,16 @@
 		<title>CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO</title>
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+		<section class="title">
 
-		<h1><b>CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO</b></h1>
+			<h1><b>CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO</b></h1>
+		</section>
 	</head>
 
 	<body>
 		
 		<div>
-			<script >
+			<script>
 				alert("BIENVENIDOS AL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO"); 
 			</script>
 		</div>
@@ -36,12 +38,10 @@
 					<div class="container">
 					    <div class="row">
 					       
-
-				    
-
-
 					    <div class="navbar">
+
 					        <div class="navbar-inner">
+					        	
 					            <a class="brand" href="#">
 					            
 					            	<img class="logo" src="images/velerosf.png" alt="">
@@ -58,10 +58,11 @@
 					                	-->
 
 					                    <li>
-					                    	<a href="pagunina1.html">
+					                    	<a href="paguina1.html">
 					                    		Universidad Nacional del Arte (UNA)
 					                    	</a>
 					                	</li>
+
 
 					                    <li>
 					                    	<a href="pagunina2.html">
@@ -69,17 +70,20 @@
 					                    	</a>
 					                    </li>
 
+
 					                    <li>
 					                    	<a href="autoridades.php">
 					                    		AUTORIDADES
 					                    	</a>
 					                    </li>
 
+
 					                    <li>
 					                    	<a href="login.php">
 					                    		login
 					                    	</a>
 					                    </li>
+
 
 					                    <li>
 					                    	<a href="../Sitio_CV/indexcv.php">
@@ -96,10 +100,8 @@
 				</nav>
 			</header><!--FIN BARRA DE NAVEGACIÓN-->
 
-
-
-
 		<article>
+
 			<div>
 				El Centro Universitario Municipal de San Fernando, comienza entonces sus actividades, el 17 de abril de 2007.
 			</div>
@@ -156,10 +158,13 @@
 				En 2018 y 2019, se siguen incorporando carreras y cursos, ( distintos cursos aeronauticos, ceremonial y protocolo,  y otros,  y la matrícula llega a 3200 alumnos.
 			</div>
 		</article>
+
+		
 		
 		<?php include ("partials/address.php");?>
 		<?php include ("partials/footer.php");?>
 
+		
 		<script type="text/javascript" src="vendor/jquery/jquery-3.4.1.min.js"></script>
   		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 	</body>

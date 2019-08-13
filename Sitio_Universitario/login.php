@@ -1,8 +1,9 @@
 <?php session_start();
     
-    if (isset ($_GET["nombre_de_user"]) && isset($_GET["pass"])){
+    if (isset ($_GET["nombre_de_user"]) &&
+        isset($_GET["pass"])){
 
-      $conexion = new mysqli ("127.0.0.1", "root", "", "uni");
+      $conxcion = new mysqli ("127.0.0.1", "root", "", "uni");
       $consulta = "SELECT * " .
       "FROM usuarios " .
       "WHERE nombre_de_user = '" .  $_GET["nombre_de_user"] . "'" .
@@ -10,11 +11,13 @@
 
       echo $consulta;
 
-      $resultado = $conexion->query ($consulta);
+      $resultado = $conxcion->query ($consulta);
 
       if ($resultado->num_rows ==1) {
         $_SESSION["nombre_de_user"] = "*";
-        echo "INGRESO";
+        
+
+        header ("Location: campus.php");
       }
 
       else{
@@ -41,12 +44,9 @@ if (!isset($_SESSION["nombre_de_user"])){
 
   	<body>
 
-
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-         
 
 
   		<div  class = "login-box" >
@@ -66,54 +66,6 @@ if (!isset($_SESSION["nombre_de_user"])){
 
         </form>
       </div>
-
-      
-   	</body>
+  	</body>
   </html>
 <?php } ?>
-
-
-
-<!-- 
-    include_once PATH_HELPERS . '/database_helper.php';
-
-
-    if ( isset( $_POST["user_name"] ) && isset( $_POST["password"] ) && 
-         $_POST["user_name"] != "" && $_POST["password"] != "" ){
-
-        $conexion = getConexion();
-
-        $consulta = "SELECT * " . 
-                    "FROM usuarios " .
-                    "WHERE usr_nombre_usuario = '" . $_POST["user_name"] . "'" .
-                    " AND usr_password = '" . $_POST["password"] . "'";
-
-        $resultado = $conexion->query( $consulta );
-
-
-        if ( $resultado->num_rows == 1  ){
-
-            //Obtengo el nombre del usuario
-
-            $usuario = $resultado->fetch_assoc();
-
-            $_SESSION["usuario"] = $usuario["usr_nombre_real"];
-            $_SESSION["id_usuario"] = $usuario["usr_id"];
-            
-
-        }
-        else{
-            $mensaje_alerta = "Usuario y/o contraseña no valida";
-        }
-    }
-    else{
-        $mensaje_alerta = "Debe completar el usuario y la contraseña";
-    }
-
-    $contenido_seccion1 = PATH_VIEWS . "/index/partials/slider_publicidades.inc.php";
-    $contenido_seccion2 = PATH_VIEWS . "/index/partials/contenido_index.inc.php";
-    $contenido_listado  = PATH_VIEWS . "/index/partials/listado_index.inc.php";
-
-    include( PATH_VIEWS . '/common/base.php' );
-
--->
