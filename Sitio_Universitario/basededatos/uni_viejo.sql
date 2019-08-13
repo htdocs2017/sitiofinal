@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-08-2019 a las 17:13:48
+-- Tiempo de generación: 11-07-2019 a las 01:33:49
 -- Versión del servidor: 10.1.34-MariaDB
 -- Versión de PHP: 5.6.37
 
@@ -45,19 +45,6 @@ INSERT INTO `prioridades` (`id`, `descripcion`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `publicaciones_repositorios`
---
-
-CREATE TABLE `publicaciones_repositorios` (
-  `id` int(11) NOT NULL,
-  `nombre_de_user` int(20) NOT NULL,
-  `descripcion` varchar(100) CHARACTER SET utf8 NOT NULL,
-  `archivo` varchar(50) CHARACTER SET utf8 NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `usuarios`
 --
 
@@ -83,7 +70,7 @@ INSERT INTO `usuarios` (`id`, `apellido`, `nombre`, `nombre_de_user`, `dni`, `pa
 (3, 'Cardoba', 'Jorge', 'CordobaJorge', 5741963, '456', 47454343, 111472583, 3),
 (4, 'Alonzo', 'Nahuel', 'Nahu', 34357951, '789', 47464547, 11369852, 2),
 (5, 'Burrone', 'Estella', 'BurroneEstella', 12741123, '321', 45454343, 110963321, 1),
-(14, 'qwe', 'qwe', 'qwe', 111, '123', 47, 11, 1);
+(6, 'Tilli', 'Pablo', 'TilliPablo', 10852456, '456', 45431282, 1194520714, 1);
 
 --
 -- Índices para tablas volcadas
@@ -94,13 +81,6 @@ INSERT INTO `usuarios` (`id`, `apellido`, `nombre`, `nombre_de_user`, `dni`, `pa
 --
 ALTER TABLE `prioridades`
   ADD PRIMARY KEY (`id`);
-
---
--- Indices de la tabla `publicaciones_repositorios`
---
-ALTER TABLE `publicaciones_repositorios`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `nombre_de_user` (`nombre_de_user`);
 
 --
 -- Indices de la tabla `usuarios`
@@ -121,16 +101,10 @@ ALTER TABLE `prioridades`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT de la tabla `publicaciones_repositorios`
---
-ALTER TABLE `publicaciones_repositorios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Restricciones para tablas volcadas

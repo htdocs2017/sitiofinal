@@ -1,10 +1,28 @@
-<?php session_start(); 
+<?<?php session_start(); 
 
 //PARA FORZARLO A ENTRAR SOLAMENTE LOGEADO
 if( !isset($_SESSION["nombre_de_user"] )){
 	header("Location: login.php"); 
 }
 
+if(  isset($_POST["nombre_de_user"]) &&
+	 isset($_POST["nombre_de_user"]) &&
+     isset($_POST["description"]) && 
+     isset($_POST["archivos"])) 
+     
+  $conexion = new mysqli("127.0.0.1","root","","uni");
+
+
+  $nombre_de_user = $_POST["nombre_de_user"];
+  $description = $_POST["description"];
+  $archivos = $_POST["archivos"];
+  
+  $consulta = " INSERT INTO publicaciones_repositorio ( nombre_de_user, description, archivos) VALUES ('$nombre_de_user', '$description','$archivos')";
+
+  echo $consulta;
+
+  $conexion->query($consulta);
+};
 
 //PARA SUBIR ARCHIVOS
 $formato =array('.png','.jpg','.doc','.pps');
@@ -146,5 +164,3 @@ if (isset($_POST['boton'])) {
 		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 	</body>
 </html>
-
-

@@ -9,8 +9,6 @@
 
 		<link rel="stylesheet" type="text/css" href="css/estilos-autoridades.css">
 		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-
-
 	</head>
 
 	<body>
@@ -156,3 +154,4 @@
 
 	</body>
 </html>
+?>

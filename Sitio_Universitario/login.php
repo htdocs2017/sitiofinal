@@ -63,7 +63,6 @@ if (!isset($_SESSION["nombre_de_user"])){
           <Un  href = "#"> perdido su contraseña? </a><br>
           <a  href = "registrate.php"> Registrate </a><br>
           <a class="solo_login"  href = "logout.php"> LOG OUT </a>
-
         </form>
       </div>
   	</body>

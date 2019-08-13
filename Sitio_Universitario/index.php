@@ -12,12 +12,13 @@
 	</head>
 
 	<body>
+		<!--
 		
 		<div>
 			<script>
 				alert("BIENVENIDOS AL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO"); 
 			</script>
-		</div>
+		</div>-->
 		
 		
 
@@ -91,7 +92,6 @@
 					                    	</a>
 					                    </li>
 					                    <!--<li><a href="#">Link</a></li>-->
-					                
 					                </ul>
 					            </div>
 					        </div>

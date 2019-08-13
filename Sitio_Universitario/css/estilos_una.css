@@ -1,5 +1,4 @@
-h1{	
-	text-align: center;
+h1{	text-align: center;
 	color:#157A31;
 	/*background: blue;	*/
 	font-size: 80px;
@@ -9,8 +8,7 @@ h1{
 	margin-right: 50px;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	}
-
+}
 address{}
 
 
@@ -21,10 +19,10 @@ body{
 	padding: 0;
 	height: 100vh;
 	/*background: url(..images/construccion_1.jpg)no-repeat center top !important;*/
-	background-size: cover;
-	font-family: sans-serif;
-	height: 100vh;
-	}
+  	background-size: cover;
+  	font-family: sans-serif;
+  	height: 100vh;
+}
 
 /
 .centrado{ 

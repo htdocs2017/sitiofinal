@@ -45,13 +45,6 @@
 			-->
 			<img src="" alt="">
 
-			<p>git no andan 06-08-2019</p>
-			<p>no fuciona</p>
-			<p>hola</p>
-
-
-
-
 			
 
 
