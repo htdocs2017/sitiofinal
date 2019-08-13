@@ -96,9 +96,11 @@
 			</header><!--FIN BARRA DE NAVEGACIÓN-->
 
 		
-			<?php include("partials/address.php"); ?><!--INSERTA EL ADDRESS-->
+			<?php  include("partials/address.php"); ?><!--INSERTA EL ADDRESS-->
+
 			
-			<?php  include("partials/footer.php"); ?><!--INSERTA EL FOOTER-->
+			
+			<?php   include("partials/footer.php"); ?><!--INSERTA EL FOOTER-->
 
 			
 		</body>

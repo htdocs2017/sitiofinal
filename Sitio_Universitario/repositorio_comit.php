@@ -146,7 +146,7 @@ if (isset($_POST['boton'])) {
 			</form>
 		</div>
 	
- 		<?php include ("partials/address.php");?><!--INSERTA EL ADDRESS-->
+ 		<?php // include ("partials/address.php");?><!--INSERTA EL ADDRESS-->
 		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 	</body>
 </html>

@@ -29,23 +29,23 @@
 		<div>
 			<ul id="cuarto_item" class="estilos_redes">
 				<li>
-					<p>
-						<img src="" alt="">
+					<!--<p>-->
+						<img  id="logo_facebook"src="images/logos/logo_facebook.png" alt="">
 
 						<a  href="https://www.facebook.com/pages/Centro-Universitario-Municipal-San-Fernando/357700810967762?ref=br_rs">
 							Facebook
-						</a>
+						<!--</a>-->
 					</p>
 				</li>
 				
 				<li>
-					<p>
-						<img src="" alt="">
+					<!--<p>-->
+						<img id="logo_yotube" src="images/logos/logo.youtube.png" alt="">
 
-						<a href="https://www.youtube.com/user/sanfernandomunicipio">
+						<a  href="https://www.youtube.com/user/sanfernandomunicipio">
 							Youtube
 						</a>
-					</p>
+					<!--</p>-->
 				</li>
 			</ul>
 		</div>

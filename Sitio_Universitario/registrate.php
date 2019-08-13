@@ -157,3 +157,14 @@ if(  isset($_POST["apellidos"]) &&
       <?php //include ("partials/footer.php");?><!--INSERTA EL FOOTER-->      
     </body>
   </html>
+
+  <!--PROBLEMAS-->
+
+  <!--
+
+    1.- QUE NO SE AJUSTA LA PAGUINA DE INICIO A FORMATO MAS CHICO QUEDO ESTANDAR PARA PANTANLLA DE 24" O SEA QUE NO SE VE EL VELERO DONDE ESTA EL BOTON DE HOME DE REGRESO A LA PÀG DE INICIO.-
+
+    -->
+
+
+
