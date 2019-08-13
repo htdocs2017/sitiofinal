@@ -53,11 +53,14 @@ if (!isset($_SESSION["nombre_de_user"])){
           <Un  href = "#"> ¿Todavía no tienes una cuenta? </a>
         </form>
       </div>
+
+      <?php include ("parts/footer.php");?> <!--PROBLEMA A REVISAR-->
+ 
   	</body>
   </html>
 
 
 <?php } ?>
       
-      <?php include ("partials/footer.php");?>
+      
   

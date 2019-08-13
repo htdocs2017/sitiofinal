@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 		<!--<link href="css/bootstrap.min.css" rel="stylesheet"-->
     	<link href="css/style.css" rel="stylesheet">
-    	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    	<!--<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">-->
 		<h1>CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO</h1>
 	</head>
 
@@ -51,7 +51,14 @@
 		<?php include ("parts/address.php");?>
 		<?php include ("parts/footer.php");?>
 
+		
+
 	</body>
 	<!--<script type="text/javascript" src="vendor/jquery/jquery-3.4.1.min.js"></script>-->
   	<!--<script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
+
+
+
+  	
 </html>
+
