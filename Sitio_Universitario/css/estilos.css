@@ -1,0 +1,123 @@
+h1{	text-align: center;
+	color:#157A31;
+	/*background: blue;	*/
+	font-size: 80px;
+	background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%);
+	clear: both;}
+
+
+h5{	text-orientation: left;
+	color:white;
+	font-size: 20px;}
+
+
+h6{	text-align: center;
+	font-size: 20px;
+	color:red; }
+
+
+article{
+
+	/*padding: 50px;
+		margin:50px;*/
+
+		padding-top: 5%;
+		padding-bottom: 5%;
+		/*margin-top: 20px;*/
+		/*margin-bottom: 20px;*/
+		margin-left: 5%;
+		margin-right: 200px;
+		font-size: 20px;
+		background: url(../images/velerosf.png); /*FONDO DEL ARTICLE*/
+		clear: both;
+	}
+
+
+address{
+		border: 1px red solid;
+		padding:2%;
+		border-radius: 10px;
+		background-color: yellow;
+		color:44F60B;}
+
+
+	
+footer{	margin-top:50;
+		width: 100%;
+		height: 200px;
+		border: 1px green solid;
+		border-radius: 10px;
+		padding:2%;
+		background-image: -webkit-linear-gradient(left, red, yellow);
+		background-image: -o-linear-gradient(left, red, yellow);
+		background-image: linear-gradient(to right, red, yellow);}
+
+
+a{text-decoration: none;color: #0000FF;}
+
+
+div{float: none;}
+		
+
+
+
+header {
+ /* background: url(../img/bg-header.jpeg) no-repeat center;*/
+
+  /*background-size: cover;
+  min-height: 100px;*/
+}
+
+
+nav ul li{
+			list-style: none;
+			float:left;
+			border: 4px solid gray;
+			/*border-left: none;*/
+			/*border-bottom: none;*/
+			text-orientation: center;
+			list-style: none;
+			font-family: 'Black Han Sans', sans-serif;
+			/*padding-left: 80px;*/
+			padding: 1px;
+			margin:1px;
+			/*margin-left:80px;*/
+			text-align: center;
+			list-style: none;
+
+			}
+
+
+data-address{
+ 				text-align: left;
+ 				font-size: 20px;
+ 			}
+			 
+article div{ font-size: 24px; 
+			/*padding: 5px;
+			margin:5px;*/
+			
+			}
+
+
+address div ul li p {
+					text-align:left;
+					font-size: 35px;
+					color:black;
+					}
+
+#primer-item{list-style: none;}
+
+
+#fondo-navbar{
+				width: 100%;
+				height:240px;
+				position: absolute;
+				z-index: -1;
+				background:  linear-gradient(to bottom, rgba(179,190,173,1) 0%, rgba(223,229,215,1) 60%, rgba(252,255,244,1) 100%);
+				}
+
+
+
+
+
