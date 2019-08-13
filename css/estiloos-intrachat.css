@@ -1,0 +1,148 @@
+#coment_tr { 
+    background-color: #FFFFFF; 
+    border-top-width: 2px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 2px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: #000000; 
+    border-right-color: #666666; 
+    border-bottom-color: #666666; 
+    border-left-color: #000000; 
+    padding: 3px; 
+    height: 198px; 
+    width: auto; 
+    display: block; 
+    overflow: auto; 
+} 
+.date_envi { 
+    background-color: #EEEEEE; 
+    margin-top: 3px; 
+    margin-right: 3px; 
+    margin-bottom: 1px; 
+    margin-left: 3px; 
+    padding-top: 3px; 
+    padding-right: 3px; 
+    padding-bottom: 1px; 
+    padding-left: 3px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-right-color: #000000; 
+    border-bottom-color: #000000; 
+    border-left-color: #000000; 
+} 
+.botom { 
+    color: #000000; 
+    background-color: #FFFFFF; 
+    border: 1px solid #999999; 
+    height: 20px; 
+    width: 100px; 
+} 
+.tabs { 
+    background-color: #FFFFFF; 
+    float: left; 
+    height: auto; 
+    width: 98px; 
+    display: block; 
+    cursor: pointer; 
+    text-align: center; 
+    padding-bottom: 4px; 
+    margin-bottom: 4px; 
+} 
+.tabs_ac { 
+    background-color: #E4E5E5; 
+    float: left; 
+    height: auto; 
+    width: 98px; 
+    display: block; 
+    cursor: pointer; 
+    text-align: center; 
+    text-decoration: underline; 
+    background-position: top; 
+    margin-bottom: 4px; 
+    padding-bottom: 4px; 
+} 
+#mensaje { 
+    background-color: #FFFFFF; 
+    padding: 5px; 
+    border: 1px solid #000000; 
+} 
+#config { 
+    color: #000000; 
+    background-color: #EEEEEE; 
+    margin: 1px; 
+    padding: 1px; 
+    height: auto; 
+    width: 100px; 
+    border: 1px solid #000000; 
+    position: relative; 
+    visibility: hidden; 
+} 
+.sala { 
+    color: #000000; 
+    background-color: #EEEEEE; 
+    height: auto; 
+    width: auto; 
+    cursor: pointer; 
+    display: block; 
+    margin-right: 2px; 
+    padding-right: 3px; 
+    text-align: center; 
+    margin-bottom: 2px; 
+    padding-top: 2px; 
+    padding-bottom: 2px; 
+} 
+.sala_ac { 
+    color: #000000; 
+    background-color: #F3F3F3; 
+    height: auto; 
+    width: auto; 
+    cursor: pointer; 
+    display: block; 
+    margin-right: 2px; 
+    padding-right: 3px; 
+    text-align: center; 
+    margin-bottom: 2px; 
+    padding-top: 2px; 
+    padding-bottom: 2px; 
+    font-weight: bold; 
+} 
+.table { 
+    border: 1px solid #000000; 
+} 
+#usuarios { 
+    overflow: auto; 
+    height: 270px; 
+    width: auto; 
+} 
+.cargando { 
+    background-color: #FF0000; 
+    height: auto; 
+    width: 100px; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    clip: rect(0px,auto,auto,0px); 
+    visibility: visible; 
+    padding-right: 3px; 
+    padding-top: 2px; 
+    padding-bottom: 4px; 
+    padding-left: 5px; 
+} 
+#bbcode { 
+    position:relative; 
+    border: thin solid #333333; 
+    background-color: #EEEEEE; 
+    visibility: hidden; 
+    margin: 1px; 
+    padding: 1px; 
+    height: auto; 
+    width: 100px; 
+}

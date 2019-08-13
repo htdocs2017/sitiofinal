@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>LOGIN</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/estillos-uno.css">
+		
+
+		<body>
+					<SCRIPT  language=JavaScript> 
+			function go(){
+			if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+			        document.form.submit(); 
+			    } 
+			    else{ 
+			         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+			    } 
+			} 
+			</SCRIPT> 
+			<FORM name=form action="TU_PAGINA_WEB.HTML">
+
+			<P>Usuario:    <INPUT type=text name=login> 
+			<P>Contraseña: <INPUT type=password name=password> 
+			<INPUT onclick=go() type=button value=Acceder>
+
+			</FORM> 
+
+  
+ 
+	
+	
+
+
+	</body>
+</html>
