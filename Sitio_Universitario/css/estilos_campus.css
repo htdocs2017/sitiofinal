@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	/*background: url(../images/foto_playa_5.jpg) no-repeat center top;*/
+}
+
+.logo{
+	/*width: 70px;*/
+	height: 30px;
+}
+

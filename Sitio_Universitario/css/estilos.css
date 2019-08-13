@@ -3,17 +3,34 @@ h1{	text-align: center;
 	/*background: blue;	*/
 	font-size: 80px;
 	background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%);
-	clear: both;}
+	clear: both;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
 
 
+
+h3{
+	text-align: center;
+	font-size: 20px;
+	color:red;
+	}
+	
+h4{
+	text-align: center;
+	font-size: 20px;
+	color:red;
+	}
 
 h5{	text-orientation: left;
 	color:white;
-	font-size: 20px;}
+	font-size: 50px;}
 
 
 h6{	text-align: center;
-	font-size: 20px;
+	font-size: 35px;
 	color:red; }
 
 
@@ -49,7 +66,8 @@ footer{	margin-top:50;
 		padding:2%;
 		background-image: -webkit-linear-gradient(left, red, yellow);
 		background-image: -o-linear-gradient(left, red, yellow);
-		background-image: linear-gradient(to right, red, yellow);}
+		background-image: linear-gradient(to right, red, yellow);
+		}
 
 
 a{text-decoration: none;color: #0000FF;}
@@ -82,6 +100,7 @@ nav ul li{
 			font-family: 'Black Han Sans', sans-serif;
 			padding: 1px;
 			margin:1px;
+
 			/*border-left: none;
 			border-bottom: none;
 			padding-left: 80px;
@@ -96,16 +115,19 @@ data-address{
  				font-size: 20px;
  			}
 			 
-article div{ font-size: 24px;}
+article div{ font-size: 24px;
+width: 100%;
+  margin-bottom: 20px;
+}
 
-/*
+
 address div ul li p {
 					text-align:left;
 					font-size: 35px;
 					color:black;
-					}*/
+					}
 
-
+nav{ width: 100%; }
 
 
 .navbar-inner{
@@ -137,11 +159,14 @@ address div ul li p {
         padding: 10px 15px;
     }
 }
+ /*
+.saludo_1{
+			background: red;
+			color:green;
+			text-align: center;
+			width: 100%;
+			position: relative;
+			clear: both;
+			}*/
 
-
-
-
-
-
-
-
+			/* A REEVISAR  ALERT SALUDO DE BIENBENIDA*/

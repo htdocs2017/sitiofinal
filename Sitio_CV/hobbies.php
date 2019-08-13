@@ -19,7 +19,7 @@
 
 
 		<header>
-			
+
 			<nav><!--INICIO DE BARRA DE NAVEGACIÓN-->
 
 				<div class="container-fluid">
@@ -27,15 +27,20 @@
 						<div class="col-md-12">
 							<ul class="nav nav-tabs">
 								<li class="nav-item">
-									<a class="nav-link active" href="indexCV.php">Regresos a datos Personales</a>
+									<a class="nav-link active" href="../Sitio_Universidad/index.php">Home</a>
 								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="indexCV.php">Regresos a datos Personales</a>
+								</li>
+
 								<li class="nav-item">
 									<a class="nav-link" href="estudios.php">Regresos a Estudios Cursados</a>
 								</li>
+								
 								<li class="nav-item">
 									<a class="nav-link" href="experenciasloboral.php">Regresos a Experencias Laborales</a>
 								</li>
-								
 							</ul>
 						</div>
 					</div>
@@ -44,17 +49,33 @@
 		</header>
 
 		<article>
+
 			<h1>HOBBIES</h1>
 			
 			<ul><!---LISTADO CON VIÑETAS-->
-				<li><p> Tallado en madera</p></li>
-				<li><p> Armado de circuitos electronicos</p></li>
-				<li><p> Escuchar música</p></li>
-				<li><p>	Jardineria</p></li>
+				<li>
+					<p>Tallado en madera.
+					</p>
+				</li>
+
+				<li>
+					<p>Armado de circuitos electronicos.
+					</p>
+				</li>
+
+				<li>
+					<p>Escuchar música.
+					</p>
+				</li>
+
+				<li>
+					<p>Jardineria.
+					</p>
+				</li>
 			</ul>
 		</article>
 
-		<?php include ("partials/footer.php");?>
+		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 	</body>
 	
 </html>

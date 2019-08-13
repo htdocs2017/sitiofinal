@@ -31,7 +31,7 @@ b {	color:orange;
 	background: black;
 	}
 
-body{background:green;
+body{background:green !important;
 	margin: 0;}
 	
 
@@ -45,7 +45,8 @@ img{width: 30px;
 	}
 
 a{	text-decoration: none;
-	color: #0000FF;/*Color del link*/ /*#0A18B2*/
+	/*color: #0000FF;*/           /*Color del link*/ /*#0A18B2*/
+	color:#00008B;
 	}
 
 article{background: #B0C4DE;}
@@ -60,3 +61,29 @@ footer{	margin-top:50;
 		}
 
 #datos-personales{list-style: none;}
+
+nav{float: none !important ;
+	background: green !important;
+	cursor: pointer !important;
+
+
+}
+
+
+
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
