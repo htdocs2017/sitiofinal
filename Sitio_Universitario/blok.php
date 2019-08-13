@@ -42,7 +42,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 								<span class="navbar-toggler-icon"></span>
 							</button> 
 								<a class="navbar-brand" href="../Sitio_Universitario/index.php">
-									<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
+									<img class="logo_institucional" src="images/velerosf.png" alt="Logo San Fernando">
 									CAMPUS
 								</a>
 

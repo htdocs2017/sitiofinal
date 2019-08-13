@@ -44,8 +44,8 @@ img{width: 30px;
 	border-radius: 5px;
 	}
 
-a{	text-decoration: none;
-	/*color: #0000FF;*/           /*Color del link*/ /*#0A18B2*/
+a{	text-decoration: none !important;
+	color: #0000FF !important;          /*Color del link*/ /*#0A18B2*/
 	color:#00008B;
 	}
 
@@ -59,14 +59,13 @@ footer{	margin-top:50;
 		font-family: 'Black Han Sans', sans-serif;
 		font-size:18px;
 		}
+		
 
 #datos-personales{list-style: none;}
 
 nav{float: none !important ;
 	background: green !important;
 	cursor: pointer !important;
-
-
 }
 
 

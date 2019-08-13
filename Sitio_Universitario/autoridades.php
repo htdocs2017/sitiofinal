@@ -32,7 +32,7 @@
 					        <div class="navbar-inner">
 					            <a class="brand" href="index.php">
 					            
-					            	<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
+					            	<img class="logo_institucional" src="images/velerosf.png" alt="Logo San Fernando">
 					            </a>
 					           
 					            <div class="nav-collapse collapse">
@@ -63,6 +63,7 @@
 					                    		login
 					                    	</a>
 					                    </li>
+					                    
 					                </ul>
 					            </div>
 					        </div>

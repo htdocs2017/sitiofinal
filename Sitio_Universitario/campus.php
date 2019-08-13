@@ -41,7 +41,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 								<span class="navbar-toggler-icon"></span>
 							</button> 
 								<a class="navbar-brand" href="../Sitio_Universitario/index.php">
-									<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
+									<img class="logo_institucional" src="images/velerosf.png" alt="Logo San Fernando">
 									CAMPUS
 								</a>
 
@@ -86,7 +86,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 					</h2>
 				</div>
 
-				<div>
+				<div class="data_text_campus">
 					<p>
 						Un repositorio, depósito o archivo es un sitio centralizado donde se almacena y mantiene información digital, habitualmente bases de datos o archivos informáticos.
 					</p>
@@ -104,7 +104,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 					</h2>
 				</div>
 
-				<div>
+				<div class="data_text_campus">
 					<p>
 						Sirve para almacenar documentos, imágenes y todo tipo de archivos de computadora, así como es el caso de videos y presentaciones, de tal forma que sean fácilmente localizables y se puedan descargar mediante el uso de Internet en cualquier parte del país o del mundo.
 					</p>
@@ -131,10 +131,6 @@ if( !isset($_SESSION["nombre_de_user"] )){
 
 				</div>
 			</div>
-
-					 
-
-
 		</article>
 	</body>
 </html>

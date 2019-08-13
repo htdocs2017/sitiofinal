@@ -1,15 +1,15 @@
 <?<?php session_start(); 
-
+/*
 //PARA FORZARLO A ENTRAR SOLAMENTE LOGEADO
 if( !isset($_SESSION["nombre_de_user"] )){
 	header("Location: login.php"); 
-}
+}*/
+
 
 /*
 //ESTANDO ESTO ACTIVO PARA IGUAL ESTADO O NO LOGEAGO PERO NO SUBE LOS ARCHIVOS
 if(  isset($_POST["nombre_de_user"]) &&
-	 isset($_POST["nombre_de_user"]) &&
-     isset($_POST["description"]) && 
+	 isset($_POST["description"]) && 
      isset($_POST["archivos"])) 
      
   $conexion = new mysqli("127.0.0.1","root","","uni");
@@ -24,19 +24,24 @@ if(  isset($_POST["nombre_de_user"]) &&
   echo $consulta;
 
   $conexion->query($consulta);
-};
+
 
 //PARA SUBIR ARCHIVOS
 $formato =array('.png','.jpg','.doc','.pps');
 $directorio ='archivos';
+
 if (isset($_POST['boton'])) {
 	$nombreArchivo    = $_FILES ['archivo']['name'];//NOMBRE ORIGINAL
 	$nombreTmpArchivo = $_FILES ['archivo']['tmp_name'];//NOMBRE TEMPORARIO
 	$ext              = substr($nombreArchivo, start($nombreArchivo, '.'));//EXTENSIÓN
+
 	if (in_array($ext, $formatos)) {
+
 		if (move_uploades_file($nombreTemArchivo,"archivos/$nombreArchivo")) {
 			echo" Felicitaciones, el archivo $nombreArchivo fue subido exitosamente.";
+
 		}else{
+			
 			echo "Ocurrio un error.";
 		}
 	}else{
@@ -44,8 +49,8 @@ if (isset($_POST['boton'])) {
 	}
 }*/
 
-?>
- 
+
+?> 
 <!--ESTE CONTENIDO SOLO EL ACCESO ES SOLO PARA USUARIOS REGISTRADOS -->
 <!DOCTYPE html>
 <html lang="es">
@@ -74,7 +79,7 @@ if (isset($_POST['boton'])) {
 								<span class="navbar-toggler-icon"></span>
 							</button> 
 								<a class="navbar-brand" href="../Sitio_Universitario/index.php">
-									<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
+									<img class="logo_institucional" src="images/velerosf.png" alt="Logo San Fernando">
 								</a>
 
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -145,8 +150,15 @@ if (isset($_POST['boton'])) {
 				<button type="submit" class="btn btn-primary" name="boton">Subir archivo</button>
 			</form>
 		</div>
+		<br>
 	
- 		<?php // include ("partials/address.php");?><!--INSERTA EL ADDRESS-->
-		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
+		<?php require ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 	</body>
 </html>
+
+<!--PROBLEMAS-->
+
+<!--
+1.- EN LA PÁG DE REPOSITORIO PROBLEMAS A SUBIR ARCHIVOS PROFESOR Y/O ADMINISTRADOR.
+
+-->

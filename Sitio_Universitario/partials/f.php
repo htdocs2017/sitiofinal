@@ -1,86 +1,25 @@
-<footer>
-	<div class="">
-		<ul class="">
-				<li><b>Realizado por Scianca Pugliese, Sergio David.</b></li>
-		</ul>
+<footer><!--HOME FOOTER-->
+	<h5>
+		<b>Copyright © Todos los Derechos Reservados
+		</b>
+	</h5>
 
-		<ul class="">
+	<h6>
+		<b>
+		Realizado por Scianca Pugliese, Sergio David
+		</b>
+	</h6>
 
-			<li><b>Copyright © Todos los Derechos Reservados.</b></li>
-		</ul>
-
-		<ul class="">
-
-			<li><b>ComIT & TELECOM S.A</b></li>
-		</ul>
-
-		<ul class="">
-			
-			<li><b>Comisión San Fernando 2019.</b></li>
-		</ul>
-	</div>
-
-
-	<div class="redes_telecom">
-
-		<ul class="">
-			<li><b>NUESTAS REDES</b></li>
-		</ul>
-
-		<ul>
-
-			<li>
-				<a href="#">
-					twitter
-				</a>
-			</li>
-		
-		
-			<li>
-				<a href="#">
-					facebook
-				</a>
-			</li>
-		
-
-			<li>
-				<a href="#">
-					youtube
-				</a>
-			</li>
-			
-		</ul>
-	</div>
+	<h4>
+		<b>
+			ComIT & TELECOM S.A
+		</b>
+	</h4>
 	
-	<div class="redes_comit">
-
-		<ul class="">
-			<li><b>NUESTAS REDES</b></li>
-
-		</ul>
-
-		<ul class="">
-
-
-			<li>
-				<a href="#">
-					twitter
-				</a>
-			</li>
-
-			<li>
-				<a href="#">
-					facebook
-				</a>
-			</li>
-
-			<li>
-				<a href="#">
-					youtube
-				</a>
-			</li>
-			
-		</ul>
-	</div>
-</footer>
-
+	<h3>
+		<b>
+			Comisión San Fernando
+		</b>
+	</h3>
+</footer><!--THE END FOOTER-->
+<!--PRIMER FOOTER-->

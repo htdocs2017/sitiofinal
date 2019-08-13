@@ -1,13 +1,6 @@
-html{
-	border: 1px red solid;
-	padding:2%;
-	border-radius: 10px;
-	}
-
 h1 {	
 	text-align: center !important;
 	color:#157A31 !important;
-	/*background: blue;	*/
 	font-size: 50px  !important;
 	background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%) !important;
 	clear: both !important;
@@ -16,6 +9,82 @@ h1 {
 	margin-bottom: 20px !important;
 	margin-top: 20px !important;
 	}
+/*
+h3{
+	text-align: center;
+	font-size: 20px;
+	color:red;
+	}
+	
+h4{
+	text-align: center;
+	font-size: 20px;
+	color:red;
+	}
+
+h5{	
+	text-orientation: left;
+	color:white;
+	font-size: 50px;
+	}
+
+
+h6{	
+	text-align: center;
+	font-size: 35px;
+	color:red; 
+	}*/
+
+
+div p{	line-height: 25px;}
+
+div{line-height: 25px;}
+
+article{
+	/*padding: 50px;
+	margin:50px;*/
+	/*padding-top: 5%;*/
+	/*padding-bottom: 5%;*/
+	/*margin-top: 20px;*/
+	/*margin-bottom: 20px;*/
+	/*margin-left: 5%;*/
+	/*margin-right: 200px;*/
+	font-size: 20px;
+	clear: both !important;
+	}
+
+address{
+		/*border: 1px red solid;*/
+		/*padding:2%;*/
+		/*border-radius: 10px;*/
+		/*background-color: yellow;*/
+		color:44F60B;
+		background-color: green !important;
+		}
+
+footer{	
+	clear: both !important;
+	/*margin-top:50;*/
+	/*width: 100%;*/
+	/*height: 200px;*/
+	/*border: 1px green solid;*/
+	/*border-radius: 10px;*/
+	padding:2%;
+	background-image: -webkit-linear-gradient(left, red, yellow)!important;
+	background-image: -o-linear-gradient(left, red, yellow)!important;
+	background-image: linear-gradient(to right, red, yellow)!important;
+	}
+
+a{
+	text-decoration: none !important;
+	color: #0000FF   /*COLOR DEL LINK OJO*/
+	}
+
+div{float: none;}
+
+
+div p{line-height: 1.5em !important; color: #000000!important;}
+
 
 nav ul li:hover{
 			list-style: none !important;
@@ -27,52 +96,65 @@ nav ul li:hover{
 			padding: 1px !important;
 			margin:1px !important;
 			}
+
+data-address{
+ 				text-align: left !important;
+ 				font-size: 20px!important;
+ 			}
+
+article div{ font-size: 24px!important;
+width: 100%!important;
+  margin-bottom: 20px!important;
+}
+
+address div ul li p { 
+	text-align:left !important;
+	font-size: 35px !important;
+	color:black!important;
+	}
+			
+div div ul li b {color:#000000!important;}
+footer div div ul li b {color:#000000!important;}
+
+
+
+
+
 /*
 address{
-		border: 1px red solid;
-		padding:2%;
-		border-radius: 10px;
-		background-color: yellow;
-		color:44F60B;
-		}*/
+		/*border: 1px red solid!important;*/
+		/*padding:2%!important;*/
+		/*border-radius: 10px!important;*/
+		/*background-color: yellow!important;*/
+		/*color:44F60B!important;
+		clear: both !important;
+		background-color: green !important;
+		} */
 
-
-a:hover{	
-text-decoration: none !important;
-color: #0000FF;/*COLOR DEL LINK OJO*/
-	}
-
-footer{
-clear: both !important;
-margin-left: 50px !important;
-margin-right: 50px !important;
-margin-bottom: 20px !important;
-margin-top: 20px !important;
-
-}
 
 h3 h4 h5 h6{text-align: center !important;}
 
 
 
 /*     ID´S     */
-#primer_item{
-list-style: none !important;
-}
-
+#primer_item{list-style: none !important;}
 #segundo_item{list-style: none !important;}
 #tercer_item{list-style: none !important;}
 #cuarto_item{list-style: none !important;}
-
-#logo_facebook{height: 40px;}
-#logo_yotube{height: 40px;}
+#quinto_item{list-style: none !important;} /*PRIMERA LINEA DEL FOOTER*/
+#sexto_item{list-style: none !important;} /*SEGUNDA LINEA DEL FOOTER*/
+#septimo_item{list-style: none !important;} /*TERCER LINEA DEL FOOTER*/
+#octavo_item{list-style: none !important;}  /*CUARTA LINEA DEL FOOTER*/
+#noveno_item{list-style: none !important;} /*QUINTA LINEA DEL FOOTER*/
+#desimo_item{list-style: none !important;}  /*SACA LOS ASTERISCOS A REDES SOCIALES DE COMIT*/
+#desimoprimero_item{list-style: none !important;}        /*SACA LOS AASTERIOSCOS DE TELECOM LOGO*/
+#desimosegundo_item{list-style: none !important;} /*SEPTIMA LINEA DEL FOOTER*/
+#desimotercero_item{list-style: none !important;} /*SACA LOS ASTERISCOS A LAS REDES SOCIALES DE TELECOM*/
+#logo_facebook{height: 40px!important;}
+#logo_yotube{height: 40px!important;}
 
 
 /*		CLASS	*/
-
-.logo{
-	/*width: 70px;*/
-	height: 30px;}
 
 .address{
 	color:44F60B;
@@ -84,7 +166,6 @@ text-decoration: none !important;
 text-align: left !important;
 }
 
-
 .data_horarios{
 color:black !important;
 
@@ -95,18 +176,125 @@ text-align: left !important;
 .data_redes{
 color: black !important;
 text-align: left !important;
-
 }
 
 .estilos_redes{
 text-decoration: none !important;
 float:left !important;
 text-align: left !important;
-
 }
 
+.logo_institucional{/*width: 70px;*/	height: 30px !important;}
+.logo_comit{ width: 100px !important; height: 100px !important; }
+.logo_facebook{width: 30px !important; height: 30px !important;}
+.logo_instagram{width: 30px !important; height: 30px !important;}
+.logo_twitter{width: 30px !important; height: 30px !important;}
+.logo_youtube{width: 30px !important; height: 30px !important;}
+.logo_linkedin{width: 30px !important; height: 30px !important;}
+.logo_telecom{width: 100px !important; height: 100px !important;}
 
+.data_1f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_2f{
+color:#000000!important;
+/*color:#333333*/;
+text-align: left!important;
+}
+.data_3f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_4f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_5f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_6f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_7f{
+color:#000000!important;
+/*color:#333333*/;
+border: 1px green solid !important;
+border-radius: 10px !important;
+}
+.data_8f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_9f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_10f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_f10 a:hover{
+text-decoration: none!important;
+color: #0000FF!important;
+}
+.data_11f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_12f{.
+color:#000000!important;
+/*color:#333333*/;
+float: left !important;
+}
+.data_13f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_14f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_f13 a{
+text-decoration: none !important;
+color: #0000FF!important;
 
+}
+.data_f14 a{
+text-decoration: none !important;
+color: #0000FF!important;
+}
+
+.navbar-inner{
+    /*height: 90px*/
+    min-height: 15px;
+    }
+.navbar .brand{
+    padding: 0 10px;
+}
+.navbar .nav > li > a {
+    padding: 20px 15px;
+    /*padding: 35px 15px;*/
+}
+.navbar .btn-navbar {
+    /*margin-right: 0px;*/
+    margin-top:15px;
+}
+.brand img{
+    margin-top: 5px
+}
+@media (max-width:768px) {
+    .brand img{
+        margin-bottom: 5px
+    }
+    .navbar .btn-navbar{
+        /*margin-right: -15px;*/
+    }
+    .navbar .nav > li > a {
+        padding: 10px 15px;
+    }
 
 
 

@@ -12,13 +12,13 @@
 	</head>
 
 	<body>
-		
+		<!--
 		
 		<div>
 			<script>
 				alert("BIENVENIDOS AL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO"); 
 			</script>
-		</div>
+		</div>-->
 		
 		
 
@@ -45,7 +45,7 @@
 					        	
 					            <a class="brand" href="index.php">
 					            
-					            	<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
+					            	<img class="logo_institucional" src="images/velerosf.png" alt="Logo San Fernando">
 					            </a>
 					           
 					            <div class="nav-collapse collapse">
@@ -231,7 +231,7 @@
 
 					<li class="b2p">
 						<p>
-							Diversidad: El Centro Universitario Vicente López está abierto a toda la comunidad, siendo de gestión pública, laica y gratuita.
+							Diversidad: El Centro Universitario San Fernando está abierto a toda la comunidad, siendo de gestión pública, laica y gratuita.
 						</p>
 					</li>
 
@@ -248,37 +248,12 @@
 					</li>
 				</ul>
 			</div>
-
-
-
 		</article>
+		
+		<?php require ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 
-		
-		
-		<!--<?php // include ("partials/address.php");?>-->
-		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
-
-		
+				
 		<script type="text/javascript" src="vendor/jquery/jquery-3.4.1.min.js"></script>
   		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
-
- <!--PROBLEMAS A RESOLVER-->
-
-<!--
-
-1.-	PROBLEMA EN QUE LA PÁG DE INICIO A FORMATO MAS CHICO NO SE VE EL FORMUALRIO MAS CHICO, OSEA QUE NO SE VE EL VELOERO DONDE ESTA EL REGRESO AL HOME.
-
-2.-	COMO CAMBIAR EL ESTILO A  UN ALET CON CSS.-
-
-3.- CHEQUEAR QUE MVC ESTE BIEN CONFIGURADO Y/O CONFIGURAR DAOS.
-
-4.  COMO CONFIGURO EL ADMISTRADOR PARA AGREGAR Y ADMINISTRACION DE MISMO PAGUINA WEB.-
-
-5.- EN LA PÁG DE REPOSITORIO PROBLEMAS A SUBIR ARCHIVOS PROFESOR Y/O ADMINISTRADOR.-
-
-6.- NOSE COMO HACER EL LOGIN DE ADINISTRADOR.-
-
-7.- NOSE COMO HACER EL LA PAGUINA DE ADMINISTRADOR.-
-	-->

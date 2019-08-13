@@ -24,9 +24,133 @@ body{
 		 	border-radius: 7px;
 			}
 
+article{
+
+	padding: 20px   30px   40px;*/
+	/*position: absolute; 
+    left:100px; 
+    top:100px; 
+    width:1000px; 
+    height: auto;*/ 
+    /*z-index:3;*/ 
+   /* background-color:#FFFFFF; */
+    /*border: none; */
+}
+
+footer{clear:both !important;}
+
+
+
+/*     ID´S     */
+#quinto_item{list-style: none !important;} /*PRIMERA LINEA DEL FOOTER*/
+#sexto_item{list-style: none !important;} /*SEGUNDA LINEA DEL FOOTER*/
+#septimo_item{list-style: none !important;} /*TERCER LINEA DEL FOOTER*/
+#octavo_item{list-style: none !important;}  /*CUARTA LINEA DEL FOOTER*/
+#noveno_item{list-style: none !important;} /*QUINTA LINEA DEL FOOTER*/
+#desimo_item{list-style: none !important;}  /*SACA LOS ASTERISCOS A REDES SOCIALES DE COMIT*/
+#desimoprimero_item{list-style: none !important;}        /*SACA LOS AASTERIOSCOS DE TELECOM LOGO*/
+#desimosegundo_item{list-style: none !important;} /*SEPTIMA LINEA DEL FOOTER*/
+#desimotercero_item{list-style: none !important;} /*SACA LOS ASTERISCOS A LAS REDES SOCIALES DE TELECOM*/
+
+
 
 /*		CLASS	*/
+.logo_institucional{/*width: 70px;*/	height: 30px;}
+.logo_comit{ width: 100px !important; height: 100px !important; }
+.logo_facebook{width: 30px !important; height: 30px !important;}
+.logo_instagram{width: 30px !important; height: 30px !important;}
+.logo_twitter{width: 30px !important; height: 30px !important;}
+.logo_youtube{width: 30px !important; height: 30px !important;}
+.logo_linkedin{width: 30px !important; height: 30px !important;}
+.logo_telecom{width: 100px !important; height: 100px !important;}
+.subtitulos{color:red!important; font-size: 35px !important;}
+.data_text_campus{color:#000000!important; font-size: 25px !important;}
 
-.logo{
-	/*width: 70px;*/
-	height: 30px;
+
+.b2p{
+
+	}
+
+.subtitulos{
+			/*color:green !important;*/
+			/*border: 1px solid !important;*/
+			/*border-radius: 7px !important;*/
+			/*font-size: 35px;*/
+			padding-top:  20px !important;
+			margin-top: 20px !important;
+			
+			}
+
+.data_1f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_2f{
+color:#000000!important;
+/*color:#333333*/;
+text-align: left!important;
+}
+.data_3f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_4f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_5f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_6f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_7f{
+color:#000000!important;
+/*color:#333333*/;
+border: 1px green solid !important;
+border-radius: 10px !important;
+}
+.data_8f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_9f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_10f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_f10 a:hover{
+text-decoration: none!important;
+color: #0000FF!important;
+}
+.data_11f{
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_12f{.
+color:#000000!important;
+/*color:#333333*/;
+float: left !important;
+}
+.data_13f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_14f{.
+color:#000000!important;
+/*color:#333333*/;
+}
+.data_f13 a{
+text-decoration: none !important;
+color: #0000FF!important;
+
+}
+.data_f14 a{
+text-decoration: none !important;
+color: #0000FF!important;
+}
