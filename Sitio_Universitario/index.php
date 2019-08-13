@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 		<!--<link href="css/bootstrap.min.css" rel="stylesheet"-->
     	<link href="css/style.css" rel="stylesheet">
+    	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<h1>CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO</h1>
 	</head>
 
@@ -21,7 +22,6 @@
 						<li><a href="pagunina3.hmtl">Convenio Universidad Nacional de La Plata (UNLP) y Fundación Argentina para el Progreso de la Enfermería (FAPE)</a></li>
 						<li><a href="pagunina4.hmtl">Convenio Instituto de Capacitación Asociación Personal Aeronáutico (ICAPA)</a></li><br>
 						<li><a href="pagunina5.hmtl">UBA</a></li>
-
 						<li><a href="pagunina6.hmtl">AUTORIDADES</a></li>
 						<li><a href="pagunina7.hmtl">INTRANET</a></li>
 						<li><a href="login.php">login</a></li>
@@ -48,7 +48,10 @@
 			<div>En 2018 y 2019, se siguen incorporando carreras y cursos, ( distintos cursos aeronauticos, ceremonial y protocolo,  y otros,  y la matrícula llega a 3200 alumnos.</div>
 		</article>
 		
-		<?php include ("address.php");?>
-		<?php include ("footer.php");?>
+		<?php include ("parts/address.php");?>
+		<?php include ("parts/footer.php");?>
+
 	</body>
+	<!--<script type="text/javascript" src="vendor/jquery/jquery-3.4.1.min.js"></script>-->
+  	<!--<script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
 </html>

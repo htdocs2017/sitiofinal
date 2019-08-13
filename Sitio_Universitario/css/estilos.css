@@ -38,19 +38,23 @@ address{
 		padding:2%;
 		border-radius: 10px;
 		background-color: yellow;
-		color:44F60B;}
+		color:44F60B;
+		width: 95%;
+		height: 200px;}
 
 
 	
 footer{	margin-top:50;
-		width: 100%;
+		width: 95%;
 		height: 200px;
 		border: 1px green solid;
 		border-radius: 10px;
 		padding:2%;
 		background-image: -webkit-linear-gradient(left, red, yellow);
 		background-image: -o-linear-gradient(left, red, yellow);
-		background-image: linear-gradient(to right, red, yellow);}
+		background-image: linear-gradient(to right, red, yellow);
+
+	}
 
 
 a{text-decoration: none;color: #0000FF;}
@@ -67,6 +71,7 @@ header {
   /*background-size: cover;
   min-height: 100px;*/
 }
+
 
 
 nav ul li{

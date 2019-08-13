@@ -33,6 +33,6 @@
 				<li><p>Pañolero en Taller de Electrotecnia en Escuelas Técnicas RAGGIO 2005.</p></li>
 			</ul>
 		</article>
-		<?php include ("footer.php");?>
+		<?php include ("parts/footer.php");?>
 	</body>
 </html>

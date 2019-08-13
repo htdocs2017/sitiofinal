@@ -91,7 +91,7 @@ footer{
 		list-style: none;
 		}*/
 
-
+/*
 
 nav ul li{	
 			list-style: none;
@@ -103,20 +103,20 @@ nav ul li{
 			font-family: 'Black Han Sans', sans-serif;
 			padding-left: 80px
 			margin-left:80px;
-			/*text-align: center;*/
+			text-align: center;
 			float:left;
-			list-style: none;}
+			list-style: none;}*/
 
 
 #datos-personales{
 					list-style: none;
 					}
-
+/*
 #fondo-navbar{
 				width: 100%;
 				height:60px;
 				position: absolute;
 				z-index: -1;
 				background:  linear-gradient(to bottom, rgba(179,190,173,1) 0%, rgba(223,229,215,1) 60%, rgba(252,255,244,1) 100%);
-				}
+				}*/
 				
