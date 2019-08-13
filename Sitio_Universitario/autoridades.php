@@ -30,9 +30,9 @@
 
 					    <div class="navbar">
 					        <div class="navbar-inner">
-					            <a class="brand" href="#">
+					            <a class="brand" href="index.php">
 					            
-					            	<img class="logo" src="images/velerosf.png" alt="">
+					            	<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
 					            </a>
 					           
 					            <div class="nav-collapse collapse">
@@ -149,9 +149,9 @@
 			</p>
 		</div>
 
-		<?php include ("partials/address.php");?><!--INSERTA EL ADDRESS-->
+		<!--<?php // include ("partials/address.php");?>-->
 		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 
 	</body>
 </html>
-?>
+

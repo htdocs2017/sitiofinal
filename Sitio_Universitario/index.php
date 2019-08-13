@@ -12,13 +12,13 @@
 	</head>
 
 	<body>
-		<!--
+		
 		
 		<div>
 			<script>
 				alert("BIENVENIDOS AL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO"); 
 			</script>
-		</div>-->
+		</div>
 		
 		
 
@@ -43,9 +43,9 @@
 
 					        <div class="navbar-inner">
 					        	
-					            <a class="brand" href="#">
+					            <a class="brand" href="index.php">
 					            
-					            	<img class="logo" src="images/velerosf.png" alt="">
+					            	<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
 					            </a>
 					           
 					            <div class="nav-collapse collapse">
@@ -59,7 +59,7 @@
 					                	-->
 
 					                    <li>
-					                    	<a href="paguina1.html">
+					                    	<a href="./una/index.php">
 					                    		Universidad Nacional del Arte (UNA)
 					                    	</a>
 					                	</li>
@@ -82,6 +82,13 @@
 					                    <li>
 					                    	<a href="login.php">
 					                    		login
+					                    	</a>
+					                    </li>
+
+					                    <li>
+					                    	<a href="contacto.php">
+					                    		CONCTACTO
+
 					                    	</a>
 					                    </li>
 
@@ -248,8 +255,8 @@
 
 		
 		
-		<?php include ("partials/address.php");?>
-		<?php include ("partials/footer.php");?>
+		<!--<?php // include ("partials/address.php");?>-->
+		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 
 		
 		<script type="text/javascript" src="vendor/jquery/jquery-3.4.1.min.js"></script>

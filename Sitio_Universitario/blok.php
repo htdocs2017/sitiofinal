@@ -18,7 +18,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 		  <meta name="author" content="">
 		  <link rel="stylesheet" type="text/css" href="css/estilos_campus.css">
 
-		  <title>Blog Post - Start Bootstrap Template</title>
+		  <title>Blog Post</title>
 
 		  <!-- Bootstrap core CSS -->
 		  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 								<span class="navbar-toggler-icon"></span>
 							</button> 
 								<a class="navbar-brand" href="../Sitio_Universitario/index.php">
-									<img class="logo" src="images/velerosf.png" alt="">
+									<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
 									CAMPUS
 								</a>
 
@@ -273,6 +273,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 		  <footer class="py-5 bg-dark">
 		    <div class="container">
 		      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+		      <?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 		    </div>
 		    <!-- /.container -->
 		  </footer>

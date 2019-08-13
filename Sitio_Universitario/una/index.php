@@ -1,4 +1,5 @@
 <?php 
+
  ?>
 
 	<!DOCTYPE html>
@@ -7,7 +8,9 @@
 		<head>
 
 			<meta charset="UTF-8">
-			<title>COMODIN</title>
+			<title>Universidad Nacional del Arte (UNA)</title>
+
+			<h1><b>Universidad Nacional del Arte (UNA)</b></h1>
 		</head>
 
 		<body>

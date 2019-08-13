@@ -41,7 +41,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 								<span class="navbar-toggler-icon"></span>
 							</button> 
 								<a class="navbar-brand" href="../Sitio_Universitario/index.php">
-									<img class="logo" src="images/velerosf.png" alt="">
+									<img class="logo" src="images/velerosf.png" alt="Logo San Fernando">
 									CAMPUS
 								</a>
 
@@ -63,46 +63,8 @@ if( !isset($_SESSION["nombre_de_user"] )){
 									<li class="nav-item">
 										 <a class="nav-link" href="logout.php">log out</a>
 									</li>
-
-
-
-
-									<!--
-									<li class="nav-item dropdown">
-										 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-
-										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-											 <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-											<!<div class="dropdown-divider">
-											</div> <a class="dropdown-item" href="#">Separated link</a>
-										</div>
-									</li>	
-									-->
 								</ul>
 								
-								<!--
-								<form class="form-inline">
-									<input class="form-control mr-sm-2" type="text"> 
-									<button class="btn btn-primary my-2 my-sm-0" type="submit">
-										Search
-									</button>
-								</form>
-								-->
-								<!--
-								<ul class="navbar-nav ml-md-auto">
-									<li class="nav-item active">
-										 <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
-									</li>
-
-									<li class="nav-item dropdown">
-										 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
-										<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-											 <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-											<div class="dropdown-divider">
-											</div> <a class="dropdown-item" href="#">Separated link</a>
-										</div>
-									</li>
-								</ul>-->
 							</div>
 						</nav>
 					</div>
@@ -114,24 +76,65 @@ if( !isset($_SESSION["nombre_de_user"] )){
 		<article>
 			<p>
 				BIENBENIDOS AL CAMPUS DEL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO
-				<p>
-					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reiciendis laboriosam corrupti delectus, quis et, rerum nostrum vitae, a culpa aperiam quo explicabo assumenda id asperiores eius earum non? Laboriosam.</span>
-					<span>Unde accusantium, esse, in corporis velit sapiente harum! Esse repellendus vero laboriosam maiores vel aspernatur quae libero expedita quia sapiente maxime error asperiores sint, repellat doloribus harum veniam quibusdam natus!</span>
-					<span>Harum maiores fugiat asperiores. Quo ut fuga sequi, facilis quam repudiandae minus a ipsa alias commodi ad perferendis ex ratione porro aliquam et natus deserunt, non, nisi. Exercitationem velit, animi.</span>
-					<span>Mollitia tempore reiciendis qui praesentium, ea enim. Voluptatibus assumenda ad voluptate qui impedit ex commodi officiis incidunt neque magnam maxime cupiditate laborum, obcaecati eius cumque, ratione aperiam non, alias aliquam!</span>
-					<span>Laboriosam temporibus numquam adipisci aut sapiente alias dolorem error quam, dolorum explicabo deleniti totam ipsa cumque necessitatibus suscipit dicta doloremque aperiam corporis excepturi laborum? Voluptatum repellat earum, quaerat laudantium soluta.</span>
-					<span>Commodi unde officiis odit impedit quas, beatae ullam voluptates natus quis, doloremque inventore, pariatur deserunt distinctio voluptatem enim? Quia dolor deserunt expedita nihil itaque ab a veniam, repellat optio labore.</span>
-					<span>Facere voluptas natus dolore, id quos vitae. Culpa porro eveniet ducimus earum veniam corporis libero illum eum maiores totam neque natus similique cupiditate sequi omnis aspernatur, officia itaque, nulla, impedit.</span>
-					<span>Saepe ex tempora, ducimus distinctio. Odio earum consequatur vitae nulla quam porro, dolores, ad sed facere, atque unde nisi minima repudiandae recusandae. Mollitia error magni eius sapiente aperiam, beatae ab.</span>
-					<span>Incidunt minus dignissimos explicabo illum nobis amet blanditiis similique modi nihil deleniti natus aspernatur rem quae, sit error, harum ea. Totam, earum, labore. Nisi recusandae vero quia officia, impedit earum.</span>
-					<span>Explicabo, fugiat voluptatum itaque, sint alias distinctio commodi doloremque labore vel delectus in iste saepe! Dolorum fugiat, deserunt incidunt commodi quod alias sint quaerat rerum impedit, non vero, quos voluptate!</span>
-					<span>Dolores, nemo quisquam ipsa sapiente sit perspiciatis! Iusto quam corporis veniam nesciunt eum aut quos voluptates at placeat voluptatibus repellendus eos, esse sint laborum ad est pariatur fugit necessitatibus magni.</span>
-					<span>Id dicta saepe rem, numquam ratione unde, eaque distinctio a ullam facere consequatur voluptatem autem animi obcaecati, quis iste provident voluptate. Illo nihil esse, a consectetur blanditiis officia molestias repellat?</span>
-					<span>Tempora ipsam libero voluptates neque necessitatibus unde dignissimos in incidunt quia illo, laborum expedita, dolore provident tempore maxime rerum praesentium! Ex explicabo maiores, et harum. Iusto id, numquam assumenda? Ullam!</span>
-					<span>Quas aspernatur praesentium, tenetur? Consequuntur id eaque in consequatur harum error mollitia optio, voluptatum impedit vitae voluptatibus quis itaque est vero adipisci atque praesentium beatae officiis suscipit molestiae ea quod.</span>
-					<span>Ex nobis praesentium eum quibusdam dolor pariatur quod eveniet veritatis iusto nam, deserunt asperiores tempore, temporibus numquam. Veritatis quam corrupti, error? Officiis eligendi inventore adipisci voluptatibus nesciunt a facilis fuga.</span>
-				</p>
-			</p>
+			<p>		
+
+
+			<div>
+				<div class="subtitulos">
+					<h2>
+						¿Qué es un repositorio web?
+					</h2>
+				</div>
+
+				<div>
+					<p>
+						Un repositorio, depósito o archivo es un sitio centralizado donde se almacena y mantiene información digital, habitualmente bases de datos o archivos informáticos.
+					</p>
+
+					<p>
+						El origen de la palabra española «repositorio» deriva del latín «repositorium», que significa armario o alacena. Este término está recogido en el Diccionario de la Real Academia donde se define como el «lugar donde se guarda algo».
+					</p>
+				</div> 
+			</div>
+
+			<div>
+				<div class="subtitulos">
+					<h2>
+						¿Para qué sirve un repositorio web? 
+					</h2>
+				</div>
+
+				<div>
+					<p>
+						Sirve para almacenar documentos, imágenes y todo tipo de archivos de computadora, así como es el caso de videos y presentaciones, de tal forma que sean fácilmente localizables y se puedan descargar mediante el uso de Internet en cualquier parte del país o del mundo.
+					</p>
+
+					<p>
+						Esto permite que sus empleados o clientes localicen rápidamente, documentos, planos, gráficos, contratos, folletos, etc. que pueden ser críticos para concretar algún negocio o para cumplir con sus funciones.
+					</p>
+
+					<p>
+						Los datos almacenados en un repositorio pueden distribuirse a través de una red informática, como Internet, o de un medio físico, como un disco compacto. Pueden ser de acceso público o estar protegidos y necesitar de una autentificación previa. Los repositorios más conocidos son los de carácter académico e institucional. Los repositorios suelen contar con sistemas de respaldo y mantenimiento preventivo y correctivo, lo que hace que la información se pueda recuperar en el caso que la máquina quede inutilizable. 
+					</p>
+
+					<p>
+						A esto se lo conoce como preservación digital, y requiere un exhaustivo trabajo de control de calidad e integridad para realizarse correctamente.
+					</p>
+
+					<p>
+						Depositar no debe confundirse con publicar. El depósito en los repositorios es una manera de comunicar públicamente los trabajos de los investigadores, aumentando su difusión: los autores ponen disponibles en acceso abierto una versión de los artículos que han publicado en revistas, tradicionales o de acceso abierto. Para ello, los sistemas de repositorios suelen integrarse e interpretar con otros sistemas y aplicaciones web. Asimismo, los repositorios cumplen un rol importante en la formación universitaria.
+					</p>
+
+					<p>
+						Algunas instituciones promueven el uso de sus repositorios como un servicio adicional para el investigador. Otras instituciones poseen mandatos propios que obligan a los autores o investigadores a depositar sus publicaciones (o determinados tipos, como por ej. tesis doctorales) en el repositorio institucional, con fines de visibilidad, impacto y preservación.
+					</p>
+
+				</div>
+			</div>
+
+					 
+
+
 		</article>
 	</body>
 </html>

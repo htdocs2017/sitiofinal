@@ -1,0 +1,100 @@
+html{
+	border: 1px red solid;
+	padding:2%;
+	border-radius: 10px;
+	}
+
+h1 {	
+	text-align: center !important;
+	color:#157A31 !important;
+	/*background: blue;	*/
+	font-size: 50px  !important;
+	background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%) !important;
+	clear: both !important;
+	margin-left: 50px !important;
+	margin-right: 50px !important;
+	margin-bottom: 20px !important;
+	margin-top: 20px !important;
+	}
+
+nav ul li:hover{
+			list-style: none !important;
+			float:left !important;
+			border: 4px solid gray !important;
+			text-orientation: center !important;
+			list-style: none !important;
+			font-family: 'Black Han Sans', sans-serif !important;
+			padding: 1px !important;
+			margin:1px !important;
+			}
+/*
+address{
+		border: 1px red solid;
+		padding:2%;
+		border-radius: 10px;
+		background-color: yellow;
+		color:44F60B;
+		}*/
+
+
+a:hover{	
+text-decoration: none !important;
+color: #0000FF;/*COLOR DEL LINK OJO*/
+	}
+
+
+h3 h4 h5 h6{text-align: center !important;}
+
+/*     ID´S     */
+#primer_item{
+list-style: none !important;
+}
+
+#segundo_item{list-style: none !important;}
+#tercer_item{list-style: none !important;}
+#cuarto_item{list-style: none !important;}
+
+
+
+
+/*		CLASS	*/
+
+.logo{
+	/*width: 70px;*/
+	height: 30px;}
+
+.address{
+	color:44F60B;
+}
+.data_uni{
+color:black !important;
+
+text-decoration: none !important;
+text-align: left !important;
+}
+
+
+.data_horarios{
+color:black !important;
+
+float: none !important;
+text-align: center !important;
+}
+
+.data_redes{
+color: black !important;
+text-align: right !important;
+
+}
+
+.estilos_redes{
+text-decoration: none !important;
+float:right !important;
+text-align: right !important;
+
+}
+
+
+
+
+

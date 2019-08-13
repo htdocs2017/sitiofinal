@@ -13,13 +13,6 @@
 
 
 
-
-
-
-
-
-
-
     define("PATH_VIEWS", SITE_ROOT . "/vistas"); //NO CONFIGURADO
 
     define("PATH_HELPERS", SITE_ROOT . "/helpers"); //NO CONFIGURADO
