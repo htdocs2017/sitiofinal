@@ -2,7 +2,7 @@
     
     if (isset ($_GET["nombre_de_user"]) && isset($_GET["pass"])){
 
-      $conxcion = new mysqli ("127.0.0.1", "root", "", "uni");
+      $conexion = new mysqli ("127.0.0.1", "root", "", "uni");
       $consulta = "SELECT * " .
       "FROM usuarios " .
       "WHERE nombre_de_user = '" .  $_GET["nombre_de_user"] . "'" .
@@ -10,7 +10,7 @@
 
       echo $consulta;
 
-      $resultado = $conxcion->query ($consulta);
+      $resultado = $conexion->query ($consulta);
 
       if ($resultado->num_rows ==1) {
         $_SESSION["nombre_de_user"] = "*";

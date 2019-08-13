@@ -1,25 +1,54 @@
- <?php /*session_start();
-if(isset($_GET["apellidos"]) && isset($_GET ["nombres"]) && isset(["telefono"]) && isser(["celular"]) && isset(["dni"]) isset(["nombre_de_user"]) && isset(["prioridades"]) && isset(["pass"]));
+ <?php session_start();
 
-$conecion = new mysqli("127.0.0.1","root","","uni");
-$consulta = "SELECT * " .
-"FROM usuarios " .
-"WHERE apellidos= '" . $_GET["apellidos"] . "'"
-" AND passswoed = '" .$_GET["pass"] . "'";
+if(isset($_GET["apellidos"]) && isset($_GET ["nombres"]) && isset($_GET["telefono"]) && isset($_GET["celular"]) && isset($_GET["dni"]) && isset($_GET["nombre_de_user"]) && isset($_GET["prioridades"]) && isset($_GET["pass"]))
 
-echo $consulta;
+{
+  $conexion = new mysqli("127.0.0.1","root","","uni");
+  $consulta = "SELECT * " .
+  "FROM usuarios " .
+  "WHERE nombre_de_user = '" . $_GET["nombre_de_user"] . "'" .
+  " AND dni = '" . $_GET["dni"] . "'";
 
-$resultado = $conecion->query($consulta);
+  $resultado = $conexion->query($consulta);
 
-if ($resultado->num_rows ===1){
-  $_SESSION ["nombre_de_user"] ="*";
-  echo"REGISRADO CORRECTAMENTE";
-}
-  else{
-    echo "USUARIO YA REGISRADO Y/O OLVIDO SU CONTRASENA Y/O USUARIO"
+  if ($resultado->num_rows ==1){
+    
+    echo"USUARIO YA REGISRADO";
+
+
   }
-};
-if (!isset($SESSION["nombre_de_user"])){*/
+    else{
+
+      $apellidos = $_GET["apellidos"];
+      $nombre = $_GET["nombre"];
+      $telefono = $_GET["telefono"];
+      $celular = $_GET["celular"];
+      $dni = $_GET["dni"];
+      $nombre_de_user = $_GET["nombre_de_user"];
+      $prioridades = $_GET["prioridades"];
+      $pass = $_GET["pass"];
+      
+      
+      
+
+
+
+      $consulta= "INSERT INTO `usuarios` (`apellido`, `nombre`, `nombre_de_user`, `dni`, `password`, `telefono`, `celular`, `prioridad`) VALUES ('$apellidos','$nombre',' $telefono','$celular','$dni','$nombre_de_user','$prioridades','$pass')";
+
+
+      $conexion->query($consulta);
+
+      if (!$conexion->content_errno){
+        echo "error";
+      }
+    }
+}
+ else{
+
+
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -60,11 +89,11 @@ if (!isset($SESSION["nombre_de_user"])){*/
 
           <div>
 
-            <lable for="nombres"required>
+            <lable for="nombres">
              NOMBRES
             </label>
 
-            <input type="text" class="form-control" id="nombres">
+            <input type="text" class="form-control" id="nombres"required>
           </div>
 
 
@@ -146,33 +175,4 @@ if (!isset($SESSION["nombre_de_user"])){*/
   	</body>
   </html>
 
-
-
-  <!--PROBLEMAS-->
-
-  <!--
-
-    1.- QUE NO SE AJUSTA LA PAGUINA DE INICIO A FORMATO MAS CHICO QUEDO ESTANDAR PARA PANTANLLA DE 24".-
-
-    2.- FALTA CONFIGURAR EL ENLACE CON LA BASE DE DATOS.-
-
-    3.- FALTA CONFIGURAR EL BOTON ENVIAR.-
-
-
-    -->
-
-
-<!--
-    <div class="form-group">
-
-     
-    <label for="exampleInputEmail1">
-      APELLIDOS
-    </label>
-
-    <input type="email" class="form-control" id="exampleInputEmail1">
-  </div>
-  -->
-
-
- 
+<?php }  ?>

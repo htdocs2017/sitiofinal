@@ -8,21 +8,22 @@
 
 
 
+
     define("PATH_VIEWS", SITE_ROOT . "/vistas");
 
-    define("PATH_HELPERS", SITE_ROOT . "/helpers");
+    define("PATH_HELPERS", SITE_ROOT . "/helpers");//  NO CONFIGURE
 
-    define("PATH_DAOS", SITE_ROOT . "/modelo/DAOs");
+    define("PATH_DAOS", SITE_ROOT . "/modelo/DAOs"); //  NO CONFIGURE
 
-    define("UPLOAD_PUB_IMAGE_PATH", SITE_ROOT . "/files/imagenes/publicaciones");
+    define("UPLOAD_PUB_IMAGE_PATH", SITE_ROOT . "/files/imagenes/publicaciones");//  NO CONFIGURE
 
     define("FILES", ROOT_URL . "/files");
     
     define("PATH_CSS", ROOT_URL . "/css");
 
-    define("PATH_RECURSOS", ROOT_URL . "/recursos");
+    define("PATH_RECURSOS", ROOT_URL . "/recursos");//  NO CONFIGURE
 
-    define("PATH_IMAGENES", ROOT_URL . "/recursos/images");
+    define("PATH_IMAGENES", ROOT_URL . "/recursos/images");//  NO CONFIGURE
 
     define("PATH_FONTS", ROOT_URL . "/fonts");
 
