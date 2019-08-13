@@ -9,8 +9,7 @@ h1{	text-align: center;
 	background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%);
 	clear: both;}
 
-.logo{
-	height: 30px;
+
 }
 
 h3{
@@ -34,7 +33,7 @@ h6{	text-align: center;
 	font-size: 35px;
 	color:red; }
 
-
+/*		CLASS	*/
 
 .director{
 	text-align: center;
@@ -54,3 +53,6 @@ b .prof_1{
 .prof_1{
 
 }
+
+.logo{
+	height: 30px;

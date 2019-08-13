@@ -1,26 +1,48 @@
-<?php 
-session_start();
-?>
+<?php session_start(); 
 
-<!--ESTE CONTENIDO SOLO EL AACCESO ES SOLO PARA USUARIOS REGISTRADOS -->
+//PARA FORZARLO A ENTRAR SOLAMENTE LOGEADO
+if( !isset($_SESSION["nombre_de_user"] )){
+	header("Location: login.php"); 
+}
+
+
+//PARA SUBIR ARCHIVOS
+$formato =array('.png','.jpg','.doc','.pps');
+$directorio ='archivos';
+if (isset($_POST['boton'])) {
+	$nombreArchivo    = $_FILES ['archivo']['name'];//NOMBRE ORIGINAL
+	$nombreTmpArchivo = $_FILES ['archivo']['tmp_name'];//NOMBRE TEMPORARIO
+	$ext              = substr($nombreArchivo, start($nombreArchivo, '.'));//EXTENSIÓN
+	if (in_array($ext, $formatos)) {
+		if (move_uploades_file($nombreTemArchivo,"archivos/$nombreArchivo")) {
+			echo" Felicitaciones, el archivo $nombreArchivo fue subido exitosamente.";
+		}else{
+			echo "Ocurrio un error.";
+		}
+	}else{
+		echo "Archivo no permitido";
+	}
+}
+
+?>
+ 
+<!--ESTE CONTENIDO SOLO EL ACCESO ES SOLO PARA USUARIOS REGISTRADOS -->
 <!DOCTYPE html>
 <html lang="es">
 
 	<head>
 		<meta charset="UTF-8">
-		<title>REPOSITROIO COMIT</title>
+		<title>REPOSITORIO COMIT</title>
 		<link rel="stylesheet" type="text/css" href="css/estilos_campus.css">
-
-
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Source code generated using layoutit.com">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	</head>
 
 	<body>
-
 
 		<nav><!--INICIO DE BARRA DE NAVEGACIÓN-->
 			<div class="container-fluid">
@@ -38,7 +60,7 @@ session_start();
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="navbar-nav">
 									<li class="nav-item active">
-										 <a class="nav-link" href="../Sitio_Universitario/campus.php">CAMPUS <span class="sr-only">(current)</span></a>
+									 	<a class="nav-link" href="../Sitio_Universitario/campus.php">CAMPUS <span class="sr-only">(current)</span></a>
 									</li>
 
 									<li class="nav-item">
@@ -46,19 +68,21 @@ session_start();
 									</li>
 
 									<li class="nav-item">
-										 <a class="nav-link" href="#">CHAT</a>
+									 	<a class="nav-link" href="#">CHAT</a>
 									</li>
 								</ul>
 
 								<ul class="navbar-nav ml-md-auto">
 									<li class="nav-item active">
-										 <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
+									 <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
 									</li>
 
 									<li class="nav-item dropdown">
-										 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
+						 				<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link
+							 			</a>
+
 										<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-											 <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+										 	<a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
 											<div class="dropdown-divider">
 											</div> <a class="dropdown-item" href="#">Separated link</a>
 										</div>
@@ -79,23 +103,46 @@ session_start();
 		</article>
 
 
-
 		<h1>Bienvenidos al Repositorio ComIT</h1>
+		
+
+		<div class="container mt-3">
+			<div class="card">
+				<div class="card-header">
+					Archivos existentes en el directorio
+				</div>
+				<div class="card-block">
+					<div class="row">
+					<?php
+						if ($dir = opendir($directorio)){
+							while ($archivo = readdir($dir)) {
+
+								if ($archivo != '.' && $archivo != '..'){
+									//este div es para darle caché y que se vea bien en todos los dispositivos. son clases del nuevo bootstrap -> framewrok css
+									echo '<div class="col-sm-3 col-xs-12">';
+										echo "Archivo: <strong>$archivo</strong><br />";
+										echo '<img src="'.$directorio.'/'.$archivo.'" title="imagen" alt="imagen"/>';
+									echo '</div>';
+								}
+							}
+						}
+					?>
+					</div>
+				</div>
+			</div>
 
 
-		 <div>
-		 	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nemo voluptatem quos quas deleniti officia quis laudantium veniam dolorem recusandae! Repellat possimus veniam tenetur reprehenderit iure quam nemo provident nam!</div>
-		 	<div>Odit architecto ratione praesentium, autem repellat molestiae at doloremque aperiam vero repellendus cum velit eaque voluptatem sed earum voluptas labore quia placeat distinctio. Illo similique est unde blanditiis, accusamus pariatur.</div>
-		 	<div>Numquam suscipit id nisi tempore facilis vitae impedit dolorum eaque! Molestiae ipsam dolorum natus repudiandae at rerum, non alias, in architecto recusandae magnam cumque tempore porro quo dolorem, quibusdam deserunt.</div>
-		 	<div>Ipsa tempora doloribus sit voluptates temporibus autem ullam magnam nobis, assumenda error. Excepturi nostrum cum asperiores minima ut maxime cumque illo obcaecati reprehenderit, placeat. Laudantium, id! Omnis asperiores suscipit blanditiis!</div>
-		 	<div>Rerum eum optio recusandae molestiae facilis, temporibus, nihil adipisci quia, aspernatur vitae iusto vel maxime! Obcaecati rem accusantium fugit cum molestiae placeat ab eius, ad nulla cumque iusto ducimus neque!</div>
-		 	<div>Sit voluptatem mollitia eos cum magnam, maiores illum eaque. Adipisci aspernatur, consequatur aut molestiae officiis veritatis in aliquid odio tempora esse facilis saepe eos dolor magnam porro atque, incidunt iusto!</div>
-		 	<div>Sed, ratione dolorem magnam numquam eos dolore perspiciatis culpa, aliquid accusamus optio itaque quam molestiae consequatur officia earum cupiditate, error amet nobis, reiciendis odit. In, illum? Delectus mollitia, possimus corporis.</div>
-		 	<div>Rerum officiis dolores repellat quos laboriosam labore assumenda, quod non praesentium odit illo ipsa ab aspernatur mollitia harum dolore, quasi qui eius nemo. Laboriosam ad cum exercitationem voluptatem esse. Vel.</div>
-		 	<div>Sed reiciendis reprehenderit voluptatum temporibus, voluptates doloremque fuga aut, neque, magnam quae provident consectetur. A molestias beatae maiores reiciendis blanditiis ratione at facilis consectetur illo, quos fugiat dolores cupiditate rem.</div>
-		 	<div>Aliquam atque, sit excepturi eligendi, iusto inventore odio ipsa, recusandae quod mollitia tempora repudiandae nostrum deserunt suscipit eius laborum impedit. Reiciendis totam et temporibus rem, perferendis eius autem fugit qui!</div>
-		 </div>
-		 <?php include ("partials/address.php");?><!--INSERTA EL ADDRESS-->
+			<form method="post" action="" enctype="multipart/form-data">
+				<div class="form-group">
+					<label for="archvio">Archivo</label>
+					<input type="file" class="form-control-file" id="archvio" aria-describedby="fileHelp" name="archivo">
+					<small id="fileHelp" class="form-text text-muted">Archivos permitidos (.jpg .png .gif)</small>
+				</div>
+				<button type="submit" class="btn btn-primary" name="boton">Subir archivo</button>
+			</form>
+		</div>
+	
+ 		<?php include ("partials/address.php");?><!--INSERTA EL ADDRESS-->
 		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 	</body>
 </html>

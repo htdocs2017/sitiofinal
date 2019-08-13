@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-
+//PARA FORZARLO A ENTRAR SOLAMENTE LOGEADO
 if( !isset($_SESSION["nombre_de_user"] )){
 	header("Location: login.php"); 
 }
@@ -53,12 +53,18 @@ if( !isset($_SESSION["nombre_de_user"] )){
 									</li>
 
 									<li class="nav-item">
-										 <a class="nav-link" href="#">BLOK</a>
+										 <a class="nav-link" href="blok.php">BLOK</a>
 									</li>
 
 									<li class="nav-item">
 										 <a class="nav-link" href="#">CHAT</a>
 									</li>
+
+									<li class="nav-item">
+										 <a class="nav-link" href="logout.php">log out</a>
+									</li>
+
+
 
 
 									<!--

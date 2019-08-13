@@ -1,13 +1,13 @@
 <?php session_start();
     
     if (isset ($_GET["nombre_de_user"]) &&
-        isset($_GET["pass"])){
+        isset($_GET["password"])){
 
       $conxcion = new mysqli ("127.0.0.1", "root", "", "uni");
       $consulta = "SELECT * " .
       "FROM usuarios " .
       "WHERE nombre_de_user = '" .  $_GET["nombre_de_user"] . "'" .
-      "  AND password = '" . $_GET["pass"] . "'";
+      "  AND password = '" . $_GET["password"] . "'";
 
       echo $consulta;
 
@@ -58,7 +58,7 @@ if (!isset($_SESSION["nombre_de_user"])){
           <input name="nombre_de_user" type = "text"  placeholder = "Enter Username">
           <!--ENTRADA DE CONTRASEÑA-->
           <label  para = "password" > Contraseña </label>
-          <input name="pass" type = "password"  placeholder = "Enter Password">
+          <input name="password" type = "password"  placeholder = "Enter Password">
           <input  type = "submit"  value = "Log In" >
           <Un  href = "#"> perdido su contraseña? </a><br>
           <a  href = "registrate.php"> Registrate </a><br>
