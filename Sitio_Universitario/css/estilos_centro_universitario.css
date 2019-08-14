@@ -10,6 +10,9 @@ h1 {
 	margin-bottom: 20px !important;
 	margin-top: 20px !important;
 	}
+/*nav{background-color: #000000 !important;}*/
+/*body{background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%) !important;}*/
+/*body{background-image:url(../images/Escudo_San_Fernando.jpg) no-repeat center top !important; }*/
 /*
 h3{
 	text-align: center;
@@ -43,15 +46,18 @@ div{line-height: 25px;}
 article{
 		/*padding: 50px;
 		margin:50px;*/
-		padding-top: 5%;
+		/*padding-top: 5%;*/
 		padding-bottom: 5%;
 		/*margin-top: 20px;*/
 		/*margin-bottom: 20px;*/
 		margin-left: 5%;
-		margin-right: 200px;
+		margin-right: 5%;
 		font-size: 20px;
 		clear: both;
+		/*background-color: #81F7D8;*/
+		/*background-color: #cbcaf9;*/
 		}
+
 
 /*
 address{
@@ -66,14 +72,14 @@ address{
 	
 footer{	
 	/*margin-top:50;*/
-	/*width: 100%;*/
+	height: 480px;
 	/*height: 200px;*/
 	/*border: 1px green solid;*/
 	/*border-radius: 10px;*/
 	padding:2%;
-	background-image: -webkit-linear-gradient(left, red, yellow);
-	background-image: -o-linear-gradient(left, red, yellow);
-	background-image: linear-gradient(to right, red, yellow);
+	background-image: -webkit-linear-gradient(left, red, yellow)!important;
+	background-image: -o-linear-gradient(left, red, yellow)!important;
+	background-image: linear-gradient(to right, red, yellow)!important;
 	}
 
 
@@ -139,17 +145,23 @@ address div ul li p {
 					}
 
 nav{ 
-width: 100%; 
-padding: 10px 15px 10px !important;
+/*width: 100%; 
+padding: 10px 15px 10px !important;*/
 color: #777777 !important;
 text-decoration: none !important;
 text-shadow: 0 1px 0 #ffffff !important;
+margin-left: 0!important;
+margin-right: 0!important;
 }
 
 
 
 div div ul li b {color:#000000!important;}
 footer div div ul li b {color:#000000!important;} 
+
+/*.data_f10 li a img{float:left !important;}*/
+
+
 
 /*     ID´S     */
 #quinto_item{list-style: none !important;} /*PRIMERA LINEA DEL FOOTER*/
@@ -165,26 +177,25 @@ footer div div ul li b {color:#000000!important;}
 
 /*		CLASS	*/
 .logo_institucional{/*width: 70px;*/	height: 30px;}
-.logo_comit{ width: 100px !important; height: 100px !important; }
-.logo_facebook{width: 30px !important; height: 30px !important;}
-.logo_instagram{width: 30px !important; height: 30px !important;}
-.logo_twitter{width: 30px !important; height: 30px !important;}
-.logo_youtube{width: 30px !important; height: 30px !important;}
-.logo_linkedin{width: 30px !important; height: 30px !important;}
-.logo_telecom{width: 100px !important; height: 100px !important;}
+.logo_comit{ width: 100px !important; height: 100px !important;padding-right:20px !important;padding-left: 20px !important; }
+.logo_facebook{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_instagram{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_twitter{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_youtube{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_linkedin{width: 30px !important; height: 30px !important; padding-left: 5px !important;padding-right:5px !important;}
+.logo_telecom{width: 100px !important; height: 100px !important; clear: both !important; padding-top: 10px !important;}
 
 .b2p{
 
 	}
 
 .subtitulos{
-			color:green !important;
-			/*border: 1px solid !important;*/
-			/*border-radius: 7px !important;*/
-			padding-top:  20px !important;
-			margin-top: 20px !important;
-			
-			}
+	color:green !important;
+	/*border: 1px solid !important;*/
+	/*border-radius: 7px !important;*/
+	padding-top:  20px !important;
+	margin-top: 20px !important;
+	}
 
 .data_1f{
 color:#000000!important;
@@ -221,11 +232,12 @@ border-radius: 10px !important;
 color:#000000!important;
 /*color:#333333*/;
 }
-.data_9f{.
+.data_9f{
 color:#000000!important;
 /*color:#333333*/;
+clear: both !important;
 }
-.data_10f{.
+.data_10f{
 color:#000000!important;
 /*color:#333333*/;
 }
@@ -237,28 +249,60 @@ color: #0000FF!important;
 color:#000000!important;
 /*color:#333333*/;
 }
-.data_12f{.
+.data_12f{
 color:#000000!important;
 /*color:#333333*/;
-float: left !important;
+clear: both !important;
+clear:both !important;
+/*float: left !important;*/
 }
-.data_13f{.
-color:#000000!important;
-/*color:#333333*/;
-}
-.data_14f{.
+.data_13f{
 color:#000000!important;
 /*color:#333333*/;
 }
+.data_14f{
+color:#000000!important;
+/*color:#333333*/;
+}
+
+.data_f8 li a img{clear: both !important;}
+.data_f9 li a img{clear: both !important;}
+
+
+.data_f10 li a img{float: left !important;}
+
+.data_f12 li a img{clear: both !important; }
+
+.data_f13 li a img{clear: both !important; }
+
+
+.data_f12 img{
+padding-left:20px !important;
+display:block !important;
+/*float: left !important;
+display:block !important;
+margin:auto!important;*/
+}
+
+
+
+
+
+.data_f14 li a img{float: left !important;}
+
+
 .data_f13 a{
 text-decoration: none !important;
 color: #0000FF!important;
-
 }
 .data_f14 a{
 text-decoration: none !important;
 color: #0000FF!important;
 }
+
+
+
+
 
 .navbar-inner{
     /*height: 90px*/

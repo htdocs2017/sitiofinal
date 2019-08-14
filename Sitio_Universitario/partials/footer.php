@@ -96,26 +96,27 @@
 	</div>
 	
 	<div class="data_f11">
-
 		<div>
+			<div>
 
 				<ul id="desimoprimero_item" class="data_f12">
 					<li>
 						<b>
-							<img class="logo_telecom"src="images/logos/logo_arg_telecom.png" alt="Logo ComIT.org"> <!--TELECOM-->
+							<img class="logo_telecom"src="images/logos/logo_arg_telecom.png" alt="Logo Telecom"> <!--TELECOM-->
 						</b>
 					</li>
 				</ul>
 			</div>
-		<div>
+			<div>
 
-			<ul id="desimosegundo_item"class="data_f13">
-				<li>
-					<b>
-						NUESTAS REDES
-					</b>
-				</li>
-			</ul>
+				<ul id="desimosegundo_item"class="data_f13">
+					<li>
+						<b>
+							NUESTAS REDES
+						</b>
+					</li>
+				</ul>
+			</div>
 		</div>
 
 		<ul id="desimotercero_item"class="data_f14">

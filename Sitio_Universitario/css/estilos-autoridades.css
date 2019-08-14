@@ -3,7 +3,7 @@ h1 {
 	color:#157A31 !important;
 	/*background: blue;	*/
 	font-size: 50px  !important;
-	background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%) !important;
+	/*background: linear-gradient(90deg, rgba(232,113,21,1) 0%, rgba(25,43,172,1) 56%, rgba(0,212,255,1) 100%) !important;*/
 	clear: both !important;
 	margin-left: 50px !important;
 	margin-right: 50px !important;
@@ -67,7 +67,7 @@ footer div div ul li b {color:#000000!important;}
 
 footer{	
 	/*margin-top:50;*/
-	/*width: 100%;*/
+	height: 480px;
 	/*height: 200px;*/
 	/*border: 1px green solid;*/
 	/*border-radius: 10px;*/
@@ -93,13 +93,13 @@ footer{
 
 	/*		CLASS	*/
 .logo_institucional{/*width: 70px;*/	height: 30px;}
-.logo_comit{ width: 100px !important; height: 100px !important; }
-.logo_facebook{width: 30px !important; height: 30px !important;}
-.logo_instagram{width: 30px !important; height: 30px !important;}
-.logo_twitter{width: 30px !important; height: 30px !important;}
-.logo_youtube{width: 30px !important; height: 30px !important;}
-.logo_linkedin{width: 30px !important; height: 30px !important;}
-.logo_telecom{width: 100px !important; height: 100px !important;}
+.logo_comit{ width: 100px !important; height: 100px !important;padding-right:20px !important;padding-left: 20px !important; }
+.logo_facebook{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_instagram{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_twitter{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_youtube{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_linkedin{width: 30px !important; height: 30px !important;padding-left: 5px !important;padding-right:5px !important;}
+.logo_telecom{width: 100px !important; height: 100px !important; clear: both !important; padding-top: 10px !important;}
 
 .b2p{
 
@@ -149,15 +149,16 @@ border-radius: 10px !important;
 color:#000000!important;
 /*color:#333333*/;
 }
-.data_9f{.
+.data_9f{
+color:#000000!important;
+/*color:#333333*/;
+clear: both !important;
+}
+.data_10f{
 color:#000000!important;
 /*color:#333333*/;
 }
-.data_10f{.
-color:#000000!important;
-/*color:#333333*/;
-}
-.data_f10 a{
+.data_f10 a:hover{
 text-decoration: none!important;
 color: #0000FF!important;
 }
@@ -165,19 +166,51 @@ color: #0000FF!important;
 color:#000000!important;
 /*color:#333333*/;
 }
-.data_12f{.
+.data_12f{
 color:#000000!important;
 /*color:#333333*/;
-float: left !important;
+clear: both !important;
+clear:both !important;
+/*float: left !important;*/
 }
-.data_13f{.
-color:#000000!important;
-/*color:#333333*/;
-}
-.data_14f{.
+.data_13f{
 color:#000000!important;
 /*color:#333333*/;
 }
+.data_14f{
+color:#000000!important;
+/*color:#333333*/;
+}
+
+
+
+
+.data_f8 li a img{clear: both !important;}
+.data_f9 li a img{clear: both !important;}
+
+
+.data_f10 li a img{float: left !important;}
+
+.data_f12 li a img{clear: both !important; }
+
+.data_f13 li a img{clear: both !important; }
+
+
+.data_f12 img{
+padding-left:20px !important;
+display:block !important;
+/*float: left !important;
+display:block !important;
+margin:auto!important;*/
+}
+
+
+
+
+
+.data_f14 li a img{float: left !important;}
+
+
 .data_f13 a{
 text-decoration: none !important;
 color: #0000FF!important;

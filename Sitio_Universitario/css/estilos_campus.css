@@ -62,7 +62,7 @@ footer{clear:both !important;}
 .logo_twitter{width: 30px !important; height: 30px !important;}
 .logo_youtube{width: 30px !important; height: 30px !important;}
 .logo_linkedin{width: 30px !important; height: 30px !important;}
-.logo_telecom{width: 100px !important; height: 100px !important;}
+.logo_telecom{width: 100px !important; height: 100px !important; clear: both !important; padding-top: 10px !important;}
 .subtitulos{color:red!important; font-size: 35px !important;}
 .data_text_campus{color:#000000!important; font-size: 25px !important;}
 

@@ -20,57 +20,62 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-			<header>
+		<header>
 
-				<nav><!--INICIO DE BARRA DE NAVEGACIÓN-->
-					<div class="container">
-					    <div class="row">
-					       
-					    </div>
+			<nav><!--INICIO DE BARRA DE NAVEGACIÓN-->
+				<div class="container">
+				    <div class="row">
+				       
+				    </div>
 
-					    <div class="navbar">
-					        <div class="navbar-inner">
-					            <a class="brand" href="index.php">
-					            
-					            	<img class="logo_institucional" src="images/velerosf.png" alt="Logo San Fernando">
-					            </a>
-					           
-					            <div class="nav-collapse collapse">
-					                <ul class="nav">
-					                	<!--
-					                    <li class="active">
-					                    	<a href="../Sitio_Universitario/index.php">
-					                    		Home
-					                    	</a>
-					                    </li>
-					                		-->
+				    <div class="navbar">
+				        <div class="navbar-inner">
+				            <a class="brand" href="index.php">
+				            
+				            	<img class="logo_institucional" src="images/velerosf.png" alt="Logo San Fernando">
+				            </a>
+				           
+				            <div class="nav-collapse collapse">
+				                <ul class="nav">
+				                	
+				                    <li>
+				                    	<a href="./una/index.php">
+				                    		Universidad Nacional del Arte (UNA)
+				                    	</a>
+				                	</li>
 
-					                    <li>
-					                    	<a href="pagunina1.html">
-					                    		Universidad Nacional del Arte (UNA)
-					                    	</a>
-					                	</li>
+				                    <li>
+				                    	<a href="pagunina2.html">
+				                    		Universidad Nacinal de Quilmez
+				                    	</a>
+				                    </li>
+		                    
+				                    <li>
+				                    	<a href="login.php">
+				                    		login
+				                    	</a>
+				                    </li>
 
-					                    <li>
-					                    	<a href="pagunina2.html">
-					                    		Universidad Nacinal de Quilmez
-					                    	</a>
-					                    </li>
+				                    <li>
+				                    	<a href="contacto.php">
+				                    		CONCTACTO
 
-					                    
-					                    <li>
-					                    	<a href="login.php">
-					                    		login
-					                    	</a>
-					                    </li>
-					                    
-					                </ul>
-					            </div>
-					        </div>
-					    </div>
-					</div>
-				</nav>
-			</header><!--FIN BARRA DE NAVEGACIÓN-->
+				                    	</a>
+				                    </li>
+
+				                    <li>
+				                    	<a href="../Sitio_CV/indexcv.php">
+				                    		CV
+				                    	</a>
+				                    </li>
+				                    
+				                </ul>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</nav>
+		</header><!--FIN BARRA DE NAVEGACIÓN-->
 		
 
 		<div class="director">
