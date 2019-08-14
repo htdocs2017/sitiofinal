@@ -12,13 +12,13 @@
 	</head>
 
 	<body>
-		<!--
+		
 		
 		<div>
 			<script>
 				alert("BIENVENIDOS AL CENTRO UNIVERSITARIO MUNICIPAL SAN FERNANDO"); 
 			</script>
-		</div>-->
+		</div>
 		
 		
 

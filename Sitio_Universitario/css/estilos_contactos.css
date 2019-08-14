@@ -171,6 +171,7 @@ h3 h4 h5 h6{text-align: center !important;}
 #desimoprimero_item{list-style: none !important;}        /*SACA LOS AASTERIOSCOS DE TELECOM LOGO*/
 #desimosegundo_item{list-style: none !important;} /*SEPTIMA LINEA DEL FOOTER*/
 #desimotercero_item{list-style: none !important;} /*SACA LOS ASTERISCOS A LAS REDES SOCIALES DE TELECOM*/
+#desimocuarto_item{list-style: none !important;}  /*		ADDRESS REDES SOCIALES */
 #logo_facebook{height: 40px!important;}
 #logo_yotube{height: 40px!important;}
 
@@ -281,6 +282,10 @@ color:#000000!important;
 color:#000000!important;
 /*color:#333333*/;
 }
+.data_add1{
+color:#000000!important;
+/*color:#333333*/;
+}
 
 .data_f8 li a img{clear: both !important;}
 
@@ -291,6 +296,8 @@ color:#000000!important;
 .data_f12 li a img{clear: both !important; }
 
 .data_f13 li a img{clear: both !important; }
+
+.data_add1 li a img{float: left !important;}
 
 
 .data_f12 img{

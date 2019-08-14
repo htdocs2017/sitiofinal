@@ -25,27 +25,24 @@
 				<li><p>Seguinos en nuestras resdes sociales<p></li>
 			</ul>
 		</div>
+		
+		<div>		
+			<ul id="desimocuarto_item"class="data_add1">
 
-		<div>
-			<ul id="cuarto_item" class="estilos_redes">
+
 				<li>
-					<!--<p>-->
-						<img  id="logo_facebook" class="facebook_CentroUni"src="images/logos/logo_circulo_facebook.png" alt="Facebook_Centro Universitario Municipal - San Fernando">
+					<a  href="https://www.facebook.com/ComunidadITorg/">
 
-						<a  href="https://www.facebook.com/pages/Centro-Universitario-Municipal-San-Fernando/357700810967762?ref=br_rs">
-							
-						</a>
-					<!--</p>-->
+						<img class="logo_facebook" src="images/logos/logo_circulo_facebook.png" alt="facebook">
+					</a>
 				</li>
-				
+			
+			
 				<li>
-					<!--<p>-->
-						<img id="logo_yotube" class="youtube_SanFernando" src="images/logos/logo_circulo_youtube.png" alt="Youtube/San_Fernando">
+					<a href="https://www.instagram.com/comunidadit">
 
-						<a  href="https://www.youtube.com/user/sanfernandomunicipio">
-							
-						</a>
-					<!--</p>-->
+						<img class="logo_instagram" src="images/logos/logo_circulo_instagram.png" alt="instagram">
+					</a>
 				</li>
 			</ul>
 		</div>
