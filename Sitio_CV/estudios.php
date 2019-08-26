@@ -35,19 +35,33 @@
 									<a class="nav-link active" href="../Sitio_Universitario/index.php">Home</a>
 								</li>
 
+
 								<li class="nav-item">
 
 									<a class="nav-link" href="indexCV.php">Regresos a datos Personales</a>
 								</li>
 
+
 								<li class="nav-item">
 
-									<a class="nav-link>" href="experenciasloboral.php">Regresos a Experencias Laborales</a>
+									<a class="nav-link" href="experenciasloboral.php">Regresos a Experencias Laborales</a>
 								</li>
-								
+
+																
 								<li class="nav-item">
 
-									<a class="nav-link>" href="experenciasloboral.php">Regresos a Hobbies</a>
+									<a class="nav-link" href="conocimientos_de_informatica.php">Regresos a Concimentos de Informática</a>
+								</li>
+
+								<li class="nav-item">
+
+									<a class="nav-link" href="lenguajes_de_programacion.php">Regresos a Lenguajes de Programación</a>
+								</li>
+
+
+								<li class="nav-item">
+
+									<a class="nav-link" href="hobbies.php">Regresos a Hobbies</a>
 								</li>					
 							</ul>
 						</div>
@@ -64,6 +78,11 @@
 				<li>
 					<p><b>Escuelas Técnicas RAGGIO</b> D.E.10, Gobierno De La Ciudad De Buenos Aires. Domicilio en Avenida Del Libertador 8651 Capital Federal. 
 					<b>Titulo de Electrotecnico Con Orientación electronica. </b> Y título Intermedio de <b>Oficial Electricista.</b>
+					</p>
+				</li>
+				<li>
+					<p>
+						Desarrollo Web Full Stack PHP, En el centro Universitario Municipalidad de San Fernando junto a Telecom Argentina y Comunidad IT 06-05-2019 al 12-08-2019.
 					</p>
 				</li>
 

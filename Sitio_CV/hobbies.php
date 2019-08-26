@@ -48,6 +48,16 @@
 
 									<a class="nav-link" href="experenciasloboral.php">Regresos a Experencias Laborales</a>
 								</li>
+
+								<li class="nav-item">
+
+									<a class="nav-link" href="conocimientos_de_informatica.php">Regresos a Conocimentos de Informática</a>
+								</li>
+
+								<li class="nav-item">
+
+									<a class="nav-link" href="lenguajes_de_programacion.php">Regresos a Lenguajes de Programación</a>
+								</li>
 							</ul>
 						</div>
 					</div>

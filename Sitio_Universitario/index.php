@@ -66,7 +66,7 @@
 
 
 					                    <li>
-					                    	<a href="pagunina2.html">
+					                    	<a href="./error/404.php">
 					                    		Universidad Nacinal de Quilmez
 					                    	</a>
 					                    </li>

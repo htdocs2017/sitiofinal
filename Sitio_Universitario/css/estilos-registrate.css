@@ -130,3 +130,11 @@ footer{
   margin-bottom: 20px;
 }
 
+
+
+
+@media (max-height: 480px){
+  form{
+    width: 100%;
+  }
+}

@@ -18,7 +18,6 @@
 
 		<header>
 
-
 			<nav><!--INICIO DE BARRA DE NAVEGACIÓN-->
 
 				<div class="container-fluid">
@@ -42,6 +41,16 @@
 								<li class="nav-item">
 
 									<a class="nav-link" href="estudios.php">Regresos a Estudios Cursados</a>
+								</li>
+
+								<li class="nav-item">
+
+									<a class="nav-link" href="conocimientos_de_informatica.php">Regresos a Conocimiento de Informática</a>
+								</li>
+
+								<li class="nav-item">
+
+									<a class="nav-link" href="lenguajes_de_programacion.php">Regresos a Lenguajes de Progrmacón</a>
 								</li>
 								
 								<li class="nav-item">
@@ -111,6 +120,6 @@
 				</li>
 			</ul>
 		</article>
-		<?php include ("partials/footer.php");?><!--INSERTA EL FOOTER-->
+		<?php require ("partials/footer.php");?><!--INSERTA EL FOOTER-->
 	</body>
 </html>

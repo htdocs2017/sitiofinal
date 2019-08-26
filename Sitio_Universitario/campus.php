@@ -53,7 +53,7 @@ if( !isset($_SESSION["nombre_de_user"] )){
 									</li>
 
 									<li class="nav-item">
-										 <a class="nav-link" href="#">BLOK</a>
+										 <a class="nav-link" href="blok.php">BLOK</a>
 									</li>
 
 									<li class="nav-item">

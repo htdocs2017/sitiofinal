@@ -60,7 +60,7 @@ footer{	margin-top:50;
 		font-size:18px;
 		}
 		
-
+/*ID`S*/
 #datos-personales{list-style: none;}
 
 nav{float: none !important ;
@@ -70,7 +70,7 @@ nav{float: none !important ;
 
 
 
-
+/* CLASS*/
 .login-box input[type="submit"] {
   border: none;
   outline: none;
@@ -86,3 +86,8 @@ nav{float: none !important ;
   background: #ffc107;
   color: #000;
 }
+/*
+.conociemto_informatica{text-align: center;}*/
+
+
+.lenguajes{text-align: center;list-style: none;

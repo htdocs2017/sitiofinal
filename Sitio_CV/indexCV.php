@@ -41,6 +41,16 @@
 
 										<a class="nav-link" href="experenciasloboral.php">Experencias Laborale</a>
 									</li>
+
+									<li class="nav-item">
+
+										<a class="nav-link" href="conocimientos_de_informatica.php">Conocimentos de Informática</a>
+									</li>
+
+									<li class="nav-item">
+
+										<a class="nav-link" href="lenguajes_de_programacion.php">Lenguajes de Programación</a>
+									</li>
 									
 									<li class="nav-item">
 
@@ -61,13 +71,13 @@
 
 					<li>
 						<p>
-							Apellidos: Scianca Pugliese
+							Apellidos: Scianca Pugliese.
 						</p>
 					</li>
 
 					<li>
 						<P>
-							Nombres: Sergio David
+							Nombres: Sergio David.
 						</P>
 					</li>
 
@@ -85,7 +95,7 @@
 
 					<li>
 						<p>
-							DNI: 33896458
+							DNI: 33896458.
 						</p>
 					</li>
 
@@ -97,7 +107,7 @@
 
 					<li>
 						<p>
-							Dirección: Carlos Casares 1852, Victoria partido de San Fernando Provincia de Buenos Aires
+							Dirección: Carlos Casares 1852, Victoria partido de San Fernando Provincia de Buenos Aires.
 						</p>
 					</li>
 
@@ -109,7 +119,7 @@
 
 					<li>
 						<p>
-							Telegram: <img src="images/logo2019telegram.png" alt="Logo_Telegram">@SDAVIDSP <a href="https://telegram.org/#/im"> Descargate Telegram</a>
+							Telegram: <img src="images/logo2019telegram.png" alt="Logo_Telegram">@SDAVIDSP <a href="https://telegram.org/#/im"> Descargate Telegram.</a>
 						</p>
 					</li>
 

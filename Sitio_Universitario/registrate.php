@@ -29,7 +29,7 @@ if(  isset($_POST["apellidos"]) &&
   echo $consulta;
 
   $conexion->query($consulta);
-
+  
 }
 
 
@@ -66,7 +66,7 @@ if(  isset($_POST["apellidos"]) &&
                 APELLIDOS
               </label>
 
-              <input type="text" name="apellidos"  class="form-control" id="apellidos" placeholder = "Escriba los Apellidos"required>
+              <input type="text" name="apellidos"  class="form-control" id="apellidos" placeholder = "Escriba los Apellidos"required="">
             </div>
 
             <div>
@@ -75,7 +75,7 @@ if(  isset($_POST["apellidos"]) &&
                 NOMBRES
               </label>
 
-              <input type="text" name="nombres" class="form-control" id="nombres" placeholder = "Escriba los nombres"required>
+              <input type="text" name="nombres" class="form-control" id="nombres" placeholder = "Escriba los nombres"required="">
             </div>
 
             <div>
@@ -84,7 +84,7 @@ if(  isset($_POST["apellidos"]) &&
                 TELEFONO
               </label>
 
-              <input type="text" name="telefono" class="form-control" id="telefono" placeholder = "Escriba el número de telefono fijo"required>
+              <input type="text" name="telefono" class="form-control" id="telefono" placeholder = "Escriba el número de telefono fijo"required="">
             </div>
 
             <div>
@@ -93,7 +93,7 @@ if(  isset($_POST["apellidos"]) &&
                CELULAR
               </label>
 
-              <input type="text" name="celular" class="form-control" id="celular"placeholder = "Escriba el número de celular"required>
+              <input type="text" name="celular" class="form-control" id="celular"placeholder = "Escriba el número de celular"required="">
             </div>
 
             <div>
@@ -102,7 +102,7 @@ if(  isset($_POST["apellidos"]) &&
                 DNI
               </label>
 
-              <input type="text" name="dni" class="form-control" id="dni" placeholder = "Escriba el dni sin los puntos y/o espacios"required>
+              <input type="text" name="dni" class="form-control" id="dni" placeholder = "Escriba el dni sin los puntos y/o espacios"required="">
             </div>
 
             <div>
@@ -111,7 +111,7 @@ if(  isset($_POST["apellidos"]) &&
                NOMBRE DE USUARIO
               </label>
    
-              <input type="text" name="nombre_de_user" class="form-control" id="nombre_de_user"  placeholder = "Escriba nombre de usuarios"required>
+              <input type="text" name="nombre_de_user" class="form-control" id="nombre_de_user"  placeholder = "Escriba nombre de usuarios"required="">
             </div>
 
             <div>
@@ -127,7 +127,7 @@ if(  isset($_POST["apellidos"]) &&
             <label for="password" name="password">
               PASSWORD
             </label>
-            <input type="password"   name="password" class="form-control" id="password"  placeholder = "Ingreser la contraseña"required>
+            <input type="password"   name="password" class="form-control" id="password"  placeholder = "Ingreser la contraseña"required="">
           </div>
             
              
@@ -136,7 +136,7 @@ if(  isset($_POST["apellidos"]) &&
             <label for="password"  name="rpassword">
                REINGRESER PASSWORD
             </label>
-            <input type="password" name="rpassword"class="form-control" id="rpassword" placeholder = "Repita la contraseña"required>
+            <input type="password" name="rpassword"class="form-control" id="rpassword" placeholder = "Repita la contraseña"required="">
           </div>
             
             
